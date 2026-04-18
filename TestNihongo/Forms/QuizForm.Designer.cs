@@ -27,6 +27,7 @@ namespace NihongoVocabTrainer.Forms
 
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuizForm));
 			lblTitle = new Label();
 			lblScore = new Label();
 			lblQuestion = new Label();
@@ -39,7 +40,6 @@ namespace NihongoVocabTrainer.Forms
 			btnClose = new Button();
 			lblResult = new Label();
 			SuspendLayout();
-
 			// 
 			// lblTitle
 			// 
@@ -50,7 +50,6 @@ namespace NihongoVocabTrainer.Forms
 			lblTitle.TabIndex = 0;
 			lblTitle.Text = "Quiz";
 			lblTitle.TextAlign = ContentAlignment.MiddleCenter;
-
 			// 
 			// lblScore
 			// 
@@ -61,7 +60,6 @@ namespace NihongoVocabTrainer.Forms
 			lblScore.TabIndex = 1;
 			lblScore.Text = "Score: 0 / 0";
 			lblScore.TextAlign = ContentAlignment.MiddleLeft;
-
 			// 
 			// lblQuestion
 			// 
@@ -73,7 +71,6 @@ namespace NihongoVocabTrainer.Forms
 			lblQuestion.TabIndex = 2;
 			lblQuestion.Text = "勉強";
 			lblQuestion.TextAlign = ContentAlignment.MiddleCenter;
-
 			// 
 			// rdoA
 			// 
@@ -85,7 +82,6 @@ namespace NihongoVocabTrainer.Forms
 			rdoA.TabStop = true;
 			rdoA.Text = "A";
 			rdoA.UseVisualStyleBackColor = true;
-
 			// 
 			// rdoB
 			// 
@@ -97,7 +93,6 @@ namespace NihongoVocabTrainer.Forms
 			rdoB.TabStop = true;
 			rdoB.Text = "B";
 			rdoB.UseVisualStyleBackColor = true;
-
 			// 
 			// rdoC
 			// 
@@ -109,7 +104,6 @@ namespace NihongoVocabTrainer.Forms
 			rdoC.TabStop = true;
 			rdoC.Text = "C";
 			rdoC.UseVisualStyleBackColor = true;
-
 			// 
 			// rdoD
 			// 
@@ -121,18 +115,6 @@ namespace NihongoVocabTrainer.Forms
 			rdoD.TabStop = true;
 			rdoD.Text = "D";
 			rdoD.UseVisualStyleBackColor = true;
-
-			// 
-			// lblResult
-			// 
-			lblResult.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-			lblResult.Location = new Point(48, 418);
-			lblResult.Name = "lblResult";
-			lblResult.Size = new Size(684, 28);
-			lblResult.TabIndex = 7;
-			lblResult.Text = "";
-			lblResult.TextAlign = ContentAlignment.MiddleCenter;
-
 			// 
 			// btnSubmit
 			// 
@@ -144,7 +126,6 @@ namespace NihongoVocabTrainer.Forms
 			btnSubmit.Text = "Submit";
 			btnSubmit.UseVisualStyleBackColor = true;
 			btnSubmit.Click += btnSubmit_Click;
-
 			// 
 			// btnNext
 			// 
@@ -156,7 +137,6 @@ namespace NihongoVocabTrainer.Forms
 			btnNext.Text = "Next";
 			btnNext.UseVisualStyleBackColor = true;
 			btnNext.Click += btnNext_Click;
-
 			// 
 			// btnClose
 			// 
@@ -168,7 +148,15 @@ namespace NihongoVocabTrainer.Forms
 			btnClose.Text = "Close";
 			btnClose.UseVisualStyleBackColor = true;
 			btnClose.Click += btnClose_Click;
-
+			// 
+			// lblResult
+			// 
+			lblResult.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+			lblResult.Location = new Point(48, 418);
+			lblResult.Name = "lblResult";
+			lblResult.Size = new Size(684, 28);
+			lblResult.TabIndex = 7;
+			lblResult.TextAlign = ContentAlignment.MiddleCenter;
 			// 
 			// QuizForm
 			// 
@@ -186,6 +174,7 @@ namespace NihongoVocabTrainer.Forms
 			Controls.Add(lblQuestion);
 			Controls.Add(lblScore);
 			Controls.Add(lblTitle);
+			Icon = (Icon)resources.GetObject("$this.Icon");
 			Name = "QuizForm";
 			StartPosition = FormStartPosition.CenterParent;
 			Text = "Quiz";

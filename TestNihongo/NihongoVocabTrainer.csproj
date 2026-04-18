@@ -27,4 +27,18 @@
 		</Content>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Assets\nihongo_vocab_trainer_logo_no_text.ico" />
+	  <None Remove="Assets\nihongo_vocab_trainer_logo_no_text.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Assets\nihongo_vocab_trainer_logo_no_text.ico">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Assets\nihongo_vocab_trainer_logo_no_text.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
 </Project>

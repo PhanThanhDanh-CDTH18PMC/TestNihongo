@@ -40,6 +40,7 @@ namespace NihongoVocabTrainer.Forms
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			lblSearch = new Label();
 			txtSearch = new TextBox();
 			cboLevel = new ComboBox();
@@ -299,6 +300,7 @@ namespace NihongoVocabTrainer.Forms
 			Controls.Add(cboLevel);
 			Controls.Add(txtSearch);
 			Controls.Add(lblSearch);
+			Icon = (Icon)resources.GetObject("$this.Icon");
 			Margin = new Padding(3, 2, 3, 2);
 			MinimumSize = new Size(1000, 600);
 			Name = "MainForm";

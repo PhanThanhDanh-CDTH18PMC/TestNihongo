@@ -26,6 +26,7 @@ namespace NihongoVocabTrainer.Forms
 
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FlashcardForm));
 			lblTitle = new Label();
 			lblProgress = new Label();
 			lblQuestion = new Label();
@@ -37,7 +38,6 @@ namespace NihongoVocabTrainer.Forms
 			btnNext = new Button();
 			btnClose = new Button();
 			SuspendLayout();
-
 			// 
 			// lblTitle
 			// 
@@ -48,7 +48,6 @@ namespace NihongoVocabTrainer.Forms
 			lblTitle.TabIndex = 0;
 			lblTitle.Text = "Flashcard";
 			lblTitle.TextAlign = ContentAlignment.MiddleCenter;
-
 			// 
 			// lblProgress
 			// 
@@ -59,20 +58,6 @@ namespace NihongoVocabTrainer.Forms
 			lblProgress.TabIndex = 1;
 			lblProgress.Text = "0 問学習済み / 0 語";
 			lblProgress.TextAlign = ContentAlignment.MiddleLeft;
-
-			// 
-			// chkOnlyDifficult
-			// 
-			chkOnlyDifficult.AutoSize = true;
-			chkOnlyDifficult.Font = new Font("Segoe UI", 10F);
-			chkOnlyDifficult.Location = new Point(620, 64);
-			chkOnlyDifficult.Name = "chkOnlyDifficult";
-			chkOnlyDifficult.Size = new Size(112, 23);
-			chkOnlyDifficult.TabIndex = 2;
-			chkOnlyDifficult.Text = "Only difficult";
-			chkOnlyDifficult.UseVisualStyleBackColor = true;
-			chkOnlyDifficult.CheckedChanged += chkOnlyDifficult_CheckedChanged;
-
 			// 
 			// lblQuestion
 			// 
@@ -84,7 +69,6 @@ namespace NihongoVocabTrainer.Forms
 			lblQuestion.TabIndex = 3;
 			lblQuestion.Text = "勉強";
 			lblQuestion.TextAlign = ContentAlignment.MiddleCenter;
-
 			// 
 			// lblAnswer
 			// 
@@ -96,7 +80,18 @@ namespace NihongoVocabTrainer.Forms
 			lblAnswer.TabIndex = 4;
 			lblAnswer.Text = "答えを表示してください。";
 			lblAnswer.TextAlign = ContentAlignment.MiddleCenter;
-
+			// 
+			// chkOnlyDifficult
+			// 
+			chkOnlyDifficult.AutoSize = true;
+			chkOnlyDifficult.Font = new Font("Segoe UI", 10F);
+			chkOnlyDifficult.Location = new Point(620, 64);
+			chkOnlyDifficult.Name = "chkOnlyDifficult";
+			chkOnlyDifficult.Size = new Size(105, 23);
+			chkOnlyDifficult.TabIndex = 2;
+			chkOnlyDifficult.Text = "Only difficult";
+			chkOnlyDifficult.UseVisualStyleBackColor = true;
+			chkOnlyDifficult.CheckedChanged += chkOnlyDifficult_CheckedChanged;
 			// 
 			// btnShowAnswer
 			// 
@@ -108,7 +103,6 @@ namespace NihongoVocabTrainer.Forms
 			btnShowAnswer.Text = "Show Answer";
 			btnShowAnswer.UseVisualStyleBackColor = true;
 			btnShowAnswer.Click += btnShowAnswer_Click;
-
 			// 
 			// btnKnow
 			// 
@@ -120,7 +114,6 @@ namespace NihongoVocabTrainer.Forms
 			btnKnow.Text = "Know";
 			btnKnow.UseVisualStyleBackColor = true;
 			btnKnow.Click += btnKnow_Click;
-
 			// 
 			// btnDontKnow
 			// 
@@ -132,7 +125,6 @@ namespace NihongoVocabTrainer.Forms
 			btnDontKnow.Text = "Don't Know";
 			btnDontKnow.UseVisualStyleBackColor = true;
 			btnDontKnow.Click += btnDontKnow_Click;
-
 			// 
 			// btnNext
 			// 
@@ -144,7 +136,6 @@ namespace NihongoVocabTrainer.Forms
 			btnNext.Text = "Next";
 			btnNext.UseVisualStyleBackColor = true;
 			btnNext.Click += btnNext_Click;
-
 			// 
 			// btnClose
 			// 
@@ -156,7 +147,6 @@ namespace NihongoVocabTrainer.Forms
 			btnClose.Text = "Close";
 			btnClose.UseVisualStyleBackColor = true;
 			btnClose.Click += btnClose_Click;
-
 			// 
 			// FlashcardForm
 			// 
@@ -173,6 +163,7 @@ namespace NihongoVocabTrainer.Forms
 			Controls.Add(chkOnlyDifficult);
 			Controls.Add(lblProgress);
 			Controls.Add(lblTitle);
+			Icon = (Icon)resources.GetObject("$this.Icon");
 			Name = "FlashcardForm";
 			StartPosition = FormStartPosition.CenterParent;
 			Text = "Flashcard";

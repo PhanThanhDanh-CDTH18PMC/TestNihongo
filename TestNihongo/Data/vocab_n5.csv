@@ -1,0 +1,9 @@
+﻿Kanji,Hiragana,Meaning,Level,Example,CorrectCount,WrongCount,IsDifficult
+勉強,べんきょう,học tập,N5,日本語を勉強します。,3,0,False
+学校,がっこう,trường học,N5,学校へ行きます。,5,0,False
+先生,せんせい,giáo viên,N5,先生に聞きます。,8,2,False
+学生,がくせい,học sinh / sinh viên,N5,私は学生です。,13,16,True
+日本語,にほんご,tiếng Nhật,N5,日本語はおもしろいです。,5,3,True
+毎日,まいにち,mỗi ngày,N5,毎日勉強します。,8,0,False
+時間,じかん,thời gian,N5,時間があります。,5,0,False
+仕事,しごと,công việc,N5,仕事へ行きます。,1,0,False

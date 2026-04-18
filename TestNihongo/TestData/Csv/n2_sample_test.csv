@@ -1,0 +1,5 @@
+﻿TestId,Level,QuestionNo,Question,OptionA,OptionB,OptionC,OptionD,CorrectOption,Explanation
+n2_sample_test,N2,1,家族は本当にありがたい存在だ。『ありがたい』の意味は？,めずらしい,感謝したい気持ちだ,つまらない,危ない,B,ありがたい＝感謝したい気持ち・貴重であること。
+n2_sample_test,N2,2,問題に向き合う。『向き合う』の意味は？,逃げる,対面する・真剣に対応する,忘れる,遊ぶ,B,向き合う＝相手や問題に正面から対応する。
+n2_sample_test,N2,3,子どもを養う。『養う』の意味は？,育てる・生活を支える,捨てる,借りる,壊す,A,養う＝育てる・生活を支える。
+n2_sample_test,N2,4,家族の絆が強い。『絆』の意味は？,建物,つながり,料理,時間,B,絆＝人と人との強いつながり。

@@ -1,0 +1,31 @@
+# Build output
+bin/
+obj/
+.vs/
+
+# Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code / Rider
+.vscode/
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: don't upload PDF exam files
+TestData/Pdf/*
+!TestData/Pdf/.gitkeep

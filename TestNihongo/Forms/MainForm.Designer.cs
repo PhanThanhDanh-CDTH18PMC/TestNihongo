@@ -58,6 +58,8 @@ namespace NihongoVocabTrainer.Forms
 			btnImportTestPdf = new Button();
 			btnImportTestCsv = new Button();
 			btnExamMockTest = new Button();
+			btnGrammar = new Button();
+			btnImportGrammarHtml = new Button();
 			((System.ComponentModel.ISupportInitialize)dgvVocabulary).BeginInit();
 			SuspendLayout();
 			// 
@@ -178,7 +180,7 @@ namespace NihongoVocabTrainer.Forms
 			// 
 			btnFlashcard.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
 			btnFlashcard.Font = new Font("Segoe UI", 12F);
-			btnFlashcard.Location = new Point(410, 587);
+			btnFlashcard.Location = new Point(428, 587);
 			btnFlashcard.Margin = new Padding(3, 2, 3, 2);
 			btnFlashcard.Name = "btnFlashcard";
 			btnFlashcard.Size = new Size(140, 32);
@@ -194,7 +196,7 @@ namespace NihongoVocabTrainer.Forms
 			btnQuiz.Location = new Point(590, 587);
 			btnQuiz.Margin = new Padding(3, 2, 3, 2);
 			btnQuiz.Name = "btnQuiz";
-			btnQuiz.Size = new Size(88, 32);
+			btnQuiz.Size = new Size(108, 32);
 			btnQuiz.TabIndex = 10;
 			btnQuiz.Text = "Quiz";
 			btnQuiz.UseVisualStyleBackColor = true;
@@ -217,10 +219,10 @@ namespace NihongoVocabTrainer.Forms
 			// 
 			btnImportJTestHtml.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
 			btnImportJTestHtml.Font = new Font("Segoe UI", 12F);
-			btnImportJTestHtml.Location = new Point(898, 586);
+			btnImportJTestHtml.Location = new Point(864, 587);
 			btnImportJTestHtml.Margin = new Padding(3, 2, 3, 2);
 			btnImportJTestHtml.Name = "btnImportJTestHtml";
-			btnImportJTestHtml.Size = new Size(151, 32);
+			btnImportJTestHtml.Size = new Size(182, 32);
 			btnImportJTestHtml.TabIndex = 10;
 			btnImportJTestHtml.Text = "Import JTest HTML";
 			btnImportJTestHtml.UseVisualStyleBackColor = true;
@@ -278,14 +280,42 @@ namespace NihongoVocabTrainer.Forms
 			btnExamMockTest.UseVisualStyleBackColor = true;
 			btnExamMockTest.Click += btnExamMockTest_Click;
 			// 
+			// btnGrammar
+			// 
+			btnGrammar.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+			btnGrammar.Font = new Font("Segoe UI", 12F);
+			btnGrammar.Location = new Point(590, 623);
+			btnGrammar.Margin = new Padding(3, 2, 3, 2);
+			btnGrammar.Name = "btnGrammar";
+			btnGrammar.Size = new Size(108, 32);
+			btnGrammar.TabIndex = 10;
+			btnGrammar.Text = "Quiz";
+			btnGrammar.UseVisualStyleBackColor = true;
+			btnGrammar.Click += btnGrammar_Click;
+			// 
+			// btnImportGrammarHtml
+			// 
+			btnImportGrammarHtml.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+			btnImportGrammarHtml.Font = new Font("Segoe UI", 12F);
+			btnImportGrammarHtml.Location = new Point(864, 622);
+			btnImportGrammarHtml.Margin = new Padding(3, 2, 3, 2);
+			btnImportGrammarHtml.Name = "btnImportGrammarHtml";
+			btnImportGrammarHtml.Size = new Size(185, 32);
+			btnImportGrammarHtml.TabIndex = 10;
+			btnImportGrammarHtml.Text = "ImportGrammarHtml";
+			btnImportGrammarHtml.UseVisualStyleBackColor = true;
+			btnImportGrammarHtml.Click += btnImportGrammarHtml_Click;
+			// 
 			// MainForm
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(1084, 661);
 			Controls.Add(btnMockTest);
+			Controls.Add(btnImportGrammarHtml);
 			Controls.Add(btnImportJTestHtml);
 			Controls.Add(btnImport);
+			Controls.Add(btnGrammar);
 			Controls.Add(btnQuiz);
 			Controls.Add(btnExamMockTest);
 			Controls.Add(btnFlashcard);
@@ -320,5 +350,7 @@ namespace NihongoVocabTrainer.Forms
 		private Button btnImportTestPdf;
 		private Button btnImportTestCsv;
 		private Button btnExamMockTest;
+		private Button btnGrammar;
+		private Button btnImportGrammarHtml;
 	}
 }

@@ -1,0 +1,223 @@
+﻿Pattern,Meaning,Level,Usage,ExampleJapanese,ExampleVietnamese,CorrectCount,WrongCount,IsDifficult
+たぶん,Có lẽ...,N4,"Cấu trúc: たぶん + câu.
+Cách dùng: Dùng để nói phỏng đoán không chắc chắn, nghĩa là có lẽ/có thể.",たぶん明日は雨です。,Có lẽ ngày mai trời mưa.,0,0,False
+ために,Để/cho/vì...,N4,Cấu trúc: Nの / Vる + ために. 
+Cách dùng: Diễn tả mục đích “để...” hoặc nguyên nhân “vì...”.,日本語を勉強するために、毎日練習します。,"Để học tiếng Nhật, tôi luyện tập mỗi ngày.",0,0,False
+たらいいですか,Nên/phải làm thế nào？,N4,Cấu trúc: Vたら + いいですか. 
+Cách dùng: Dùng để hỏi nên/phải làm thế nào.,道に迷ったら、どうしたらいいですか。,Nếu bị lạc đường thì tôi nên làm thế nào?,0,0,False
+てある,Có làm gì đó,N4,Cấu trúc: Vて + ある. 
+Cách dùng: Diễn tả trạng thái đã được ai đó chuẩn bị/sắp đặt sẵn.,窓が開けてあります。,Cửa sổ đã được mở sẵn.,0,0,False
+ている,Thường làm gì đó....,N4,"Cấu trúc: Vて + いる. 
+Cách dùng: Diễn tả hành động đang diễn ra, thói quen, hoặc trạng thái sau hành động.",父は毎朝新聞を読んでいます。,Bố tôi đọc báo mỗi sáng.,0,0,False
+て来ます,Đi đâu đó rồi về...,N4,Cấu trúc: Vて + 来ます. 
+Cách dùng: Diễn tả đi làm việc gì đó rồi quay lại.,コンビニで飲み物を買って来ます。,Tôi đi mua đồ uống ở cửa hàng tiện lợi rồi về.,0,0,False
+てみます,Thử làm...,N4,Cấu trúc: Vて + みます. 
+Cách dùng: Diễn tả thử làm một việc gì đó.,この料理を食べてみます。,Tôi sẽ thử ăn món này.,0,0,False
+ておきます,Làm gì trước...,N4,Cấu trúc: Vて + おきます. 
+Cách dùng: Diễn tả làm trước để chuẩn bị cho sau này.,旅行の前にホテルを予約しておきます。,Trước chuyến đi tôi sẽ đặt khách sạn trước.,0,0,False
+てしまいます,Xong/lỡ làm...,N4,Cấu trúc: Vて + しまいます. 
+Cách dùng: Diễn tả làm xong hoàn toàn hoặc lỡ làm với sắc thái tiếc nuối.,大切な書類を忘れてしまいました。,Tôi lỡ quên tài liệu quan trọng rồi.,0,0,False
+てすみません,Xin lỗi...,N4,Cấu trúc: Vて + すみません. 
+Cách dùng: Dùng để xin lỗi vì đã làm việc gì đó.,遅れてすみません。,Xin lỗi vì tôi đến muộn.,0,0,False
+てよかった,May quá/may mà đã...,N4,Cấu trúc: Vて + よかった. 
+Cách dùng: Diễn tả cảm giác may mắn/tốt vì đã làm việc gì đó.,早く予約してよかったです。,May mà tôi đã đặt trước sớm.,0,0,False
+丁寧語,Thể lịch sự,N4,"Cấu trúc: です / ます / ございます. 
+Cách dùng: Thể lịch sự, dùng để nói trang trọng và lịch sự hơn.",こちらは受付でございます。,Đây là quầy lễ tân ạ.,0,0,False
+と言っていました,Đã nói là...,N4,Cấu trúc: 普通形 + と言っていました. 
+Cách dùng: Truyền đạt lại điều ai đó đã nói.,田中さんは明日来ると言っていました。,Anh Tanaka đã nói là ngày mai sẽ đến.,0,0,False
+と思っています,Định làm,N4,Cấu trúc: Vよう / 普通形 + と思っています. 
+Cách dùng: Diễn tả dự định hoặc suy nghĩ đang có.,来年日本へ行こうと思っています。,Tôi đang định năm sau đi Nhật.,0,0,False
+と伝えていただけませんか,Có thể...được không？,N4,Cấu trúc: 普通形 + と伝えていただけませんか. 
+Cách dùng: Nhờ ai đó truyền đạt lại một nội dung một cách lịch sự.,明日は休むと伝えていただけませんか。,Anh/chị có thể nhắn giúp rằng ngày mai tôi nghỉ được không?,0,0,False
+途中で,Trên đường/giữa chừng...,N4,Cấu trúc: Nの / Vる + 途中で. 
+Cách dùng: Diễn tả trong lúc đang làm gì hoặc trên đường đi thì xảy ra việc khác.,学校へ行く途中で友達に会いました。,Trên đường đến trường tôi đã gặp bạn.,0,0,False
+という意味です,Nghĩa là...,N4,Cấu trúc: N / câu + という意味です. 
+Cách dùng: Dùng để giải thích nghĩa của từ hoặc câu.,「禁止」は「してはいけない」という意味です。,“Cấm” có nghĩa là “không được làm”.,0,0,False
+とか～とか,Như là/hoặc là...,N4,"Cấu trúc: Nとか / Vるとか + Nとか / Vるとか. 
+Cách dùng: Liệt kê ví dụ không đầy đủ, nghĩa là như là... hoặc là...",休みの日は映画を見るとか、買い物するとかします。,"Ngày nghỉ tôi làm những việc như xem phim, mua sắm.",0,0,False
+ところです,Vừa mới/vừa xong...,N4,"Cấu trúc: Vる / Vている / Vた + ところです. 
+Cách dùng: Diễn tả sắp làm, đang làm, hoặc vừa làm xong.",今から出かけるところです。,Tôi sắp ra ngoài bây giờ.,0,0,False
+とおりに,Làm theo/như/đúng như...,N4,"Cấu trúc: Nの / Vる / Vた + とおりに. 
+Cách dùng: Diễn tả làm theo đúng như hướng dẫn, kế hoạch hoặc lời nói.",先生が言ったとおりに書いてください。,Hãy viết đúng như thầy/cô đã nói.,0,0,False
+つもりです,Sẽ/định,N4,Cấu trúc: Vる / Vない + つもりです. 
+Cách dùng: Diễn tả dự định sẽ làm hoặc không làm.,来週から運動するつもりです。,Tôi định từ tuần sau sẽ tập thể dục.,0,0,False
+続ける,Tiếp tục...,N4,Cấu trúc: Vます bỏ ます + 続ける. 
+Cách dùng: Diễn tả tiếp tục làm một hành động.,日本語を勉強し続けます。,Tôi sẽ tiếp tục học tiếng Nhật.,0,0,False
+受身形,Thể bị động,N4,"Cấu trúc: V bị động: 書かれる / 食べられる / される. 
+Cách dùng: Thể bị động, dùng khi chủ thể chịu tác động từ người/vật khác.",私は先生にほめられました。,Tôi đã được giáo viên khen.,0,0,False
+は,Tối thiểu/ít nhất là...,N4,Cấu trúc: Số lượng/thời gian + は. 
+Cách dùng: Nhấn mạnh mức tối thiểu/ít nhất là khoảng đó.,この仕事は三時間はかかります。,Công việc này ít nhất mất ba tiếng.,0,0,False
+やすいです,Dễ...,N4,Cấu trúc: Vます bỏ ます + やすいです. 
+Cách dùng: Diễn tả dễ làm một hành động.,このペンは書きやすいです。,Cây bút này dễ viết.,0,0,False
+やっと,Cuối cùng thì...,N4,Cấu trúc: やっと + câu. 
+Cách dùng: Diễn tả cuối cùng cũng đạt được sau thời gian dài/chờ đợi.,やっと宿題が終わりました。,Cuối cùng bài tập cũng xong.,0,0,False
+予定です,Dự định/kế hoạch,N4,Cấu trúc: Nの / Vる + 予定です. 
+Cách dùng: Diễn tả kế hoạch/dự định đã được sắp xếp.,来月日本へ行く予定です。,Tháng sau tôi có kế hoạch đi Nhật.,0,0,False
+ようです,Hình như/có lẽ...,N4,"Cấu trúc: 普通形 + ようです / Nの + ようです / Aな + ようです. 
+Cách dùng: Diễn tả suy đoán dựa trên thông tin hoặc cảm nhận, nghĩa là hình như/có vẻ.",外は雨が降っているようです。,Hình như bên ngoài đang mưa.,0,0,False
+ように,Để làm gì đó...,N4,Cấu trúc: Vる / Vない + ように. 
+Cách dùng: Diễn tả mục tiêu hoặc lời nhắc “để/sao cho”.,忘れないようにメモしてください。,Hãy ghi chú để không quên.,0,0,False
+ようになる,Bắt đầu...,N4,Cấu trúc: Vる / Vない + ようになる. 
+Cách dùng: Diễn tả sự thay đổi trở nên có thể làm hoặc bắt đầu có thói quen.,日本語が少し話せるようになりました。,Tôi đã có thể nói tiếng Nhật một chút.,0,0,False
+ようにする,Sao cho/sao cho không,N4,Cấu trúc: Vる / Vない + ようにする. 
+Cách dùng: Diễn tả cố gắng làm hoặc tránh làm một việc.,毎日早く寝るようにしています。,Tôi cố gắng đi ngủ sớm mỗi ngày.,0,0,False
+全然～ない,Hoàn toàn không...,N4,Cấu trúc: 全然 + Vない / Aくない / Nではない. 
+Cách dùng: Diễn tả hoàn toàn không.,今日は全然寒くないです。,Hôm nay hoàn toàn không lạnh.,0,0,False
+づらい,Khó làm...,N4,Cấu trúc: Vます bỏ ます + づらい. 
+Cách dùng: Diễn tả khó làm do cảm giác tâm lý hoặc hoàn cảnh không thuận lợi.,このことは友達に話しづらいです。,Chuyện này khó nói với bạn bè.,0,0,False
+間,Trong khi/suốt trong/giữa...,N4,Cấu trúc: Nの / Vている + 間. 
+Cách dùng: Diễn tả trong suốt thời gian một hành động/trạng thái kéo dài.,夏休みの間、アルバイトをしました。,Trong kỳ nghỉ hè tôi đã làm thêm.,0,0,False
+間に,Trong khi/trong lúc/trong khoảng...,N4,Cấu trúc: Nの / Vている + 間に. 
+Cách dùng: Diễn tả trong khoảng thời gian đó thì làm/xảy ra việc khác.,子どもが寝ている間に、掃除しました。,"Trong lúc con đang ngủ, tôi đã dọn dẹp.",0,0,False
+あとで,Sau đó...,N4,Cấu trúc: Nの / Vた + あとで. 
+Cách dùng: Diễn tả sau khi làm việc gì đó.,宿題をしたあとで、ゲームをします。,"Sau khi làm bài tập, tôi chơi game.",0,0,False
+ば～ほど,Càng...càng...,N4,Cấu trúc: Vば + Vるほど / Aければ + Aいほど. 
+Cách dùng: Diễn tả càng... càng...,日本語は勉強すればするほど面白くなります。,Tiếng Nhật càng học càng thấy thú vị.,0,0,False
+場合は,Trong trường hợp.../khi...,N4,Cấu trúc: Nの / Vる / Vた / Aい / Aな + 場合は. 
+Cách dùng: Diễn tả trong trường hợp/khi một tình huống xảy ra.,雨の場合は、試合を中止します。,Trường hợp trời mưa thì trận đấu sẽ bị hủy.,0,0,False
+ばかりです,Vừa mới...,N4,Cấu trúc: Vた + ばかりです. 
+Cách dùng: Diễn tả vừa mới làm xong việc gì đó.,日本に来たばかりです。,Tôi vừa mới đến Nhật.,0,0,False
+だけで,Chỉ cần...,N4,Cấu trúc: N / Vる + だけで. 
+Cách dùng: Diễn tả chỉ cần/chỉ bằng việc đó là đủ để có kết quả.,このボタンを押すだけで、電気がつきます。,Chỉ cần bấm nút này là đèn sẽ bật.,0,0,False
+出す,Bắt đầu/đột nhiên...,N4,Cấu trúc: Vます bỏ ます + 出す. 
+Cách dùng: Diễn tả bắt đầu làm gì đó một cách đột nhiên.,赤ちゃんが急に泣き出しました。,Em bé đột nhiên bắt đầu khóc.,0,0,False
+で,Bằng/với...,N4,"Cấu trúc: N + で. 
+Cách dùng: Chỉ phương tiện/cách thức/nguyên liệu, nghĩa là bằng/với.",バスで会社へ行きます。,Tôi đi công ty bằng xe buýt.,0,0,False
+でございます,Là(kính ngữ)...,N4,Cấu trúc: N + でございます. 
+Cách dùng: Cách nói lịch sự hơn của です.,こちらは資料でございます。,Đây là tài liệu ạ.,0,0,False
+でしょう,Có lẽ/chắc hẳn,N4,"Cấu trúc: 普通形 + でしょう. 
+Cách dùng: Diễn tả phỏng đoán hoặc xác nhận nhẹ, nghĩa là có lẽ/chắc hẳn.",明日は晴れるでしょう。,Ngày mai có lẽ trời sẽ nắng.,0,0,False
+が必要,Cần...,N4,Cấu trúc: N + が必要です. 
+Cách dùng: Diễn tả cần một thứ/việc gì đó.,この仕事には経験が必要です。,Công việc này cần kinh nghiệm.,0,0,False
+がする,Có(mùi/tiếng/cảm giác...),N4,"Cấu trúc: N + がする. 
+Cách dùng: Diễn tả có mùi, âm thanh, vị, cảm giác.",台所からいい匂いがします。,Từ nhà bếp có mùi thơm.,0,0,False
+がり,Có xu hướng/dễ trở nên...,N4,Cấu trúc: Aい bỏ い / Aな + がり. 
+Cách dùng: Diễn tả người có xu hướng hay cảm thấy như vậy.,弟は怖がりです。,Em trai tôi là người nhát gan.,0,0,False
+始める,Bắt đầu...,N4,Cấu trúc: Vます bỏ ます + 始める. 
+Cách dùng: Diễn tả bắt đầu làm việc gì đó.,雨が降り始めました。,Trời bắt đầu mưa.,0,0,False
+はずです,Chắc chắn,N4,Cấu trúc: 普通形 + はずです / Nの + はずです / Aな + はずです. 
+Cách dùng: Diễn tả suy luận chắc chắn dựa trên căn cứ.,田中さんはもう家に着いたはずです。,Anh Tanaka chắc đã về đến nhà rồi.,0,0,False
+必要がある,Cần/cần phải...,N4,Cấu trúc: Vる + 必要がある. 
+Cách dùng: Diễn tả cần/phải làm việc gì đó.,パスポートを見せる必要があります。,Cần phải xuất trình hộ chiếu.,0,0,False
+ほうがいい,Nên/không nên,N4,Cấu trúc: Vた / Vない + ほうがいい. 
+Cách dùng: Dùng để khuyên nên hoặc không nên làm gì.,早く寝たほうがいいです。,Bạn nên ngủ sớm thì tốt hơn.,0,0,False
+いいですか,...phải làm thế nào？,N4,Cấu trúc: 疑問詞 + Vたら + いいですか. 
+Cách dùng: Dùng để hỏi nên làm thế nào.,駅へ行くにはどう行ったらいいですか。,Để đi đến nhà ga thì nên đi thế nào?,0,0,False
+意向形,"Thể ý định, ý hướng",N4,"Cấu trúc: V ý định: 行こう / 食べよう / しよう. 
+Cách dùng: Thể ý định, dùng để rủ rê hoặc nói ý định làm gì.",明日一緒に映画を見よう。,Ngày mai cùng xem phim nhé.,0,0,False
+一方だ,Ngày càng...,N4,Cấu trúc: Vる + 一方だ. 
+Cách dùng: Diễn tả xu hướng ngày càng tiếp tục theo một chiều.,物価は高くなる一方です。,Giá cả ngày càng tăng.,0,0,False
+いらっしゃる,Đi/đến/ở/có...,N4,"Cấu trúc: いらっしゃる. 
+Cách dùng: Kính ngữ của 行く/来る/いる, dùng để nói về hành động của người trên/khách.",先生は教室にいらっしゃいます。,Thầy/cô đang ở trong lớp.,0,0,False
+いただけませんか,Cho phép...được không？,N4,"Cấu trúc: Vて + いただけませんか. 
+Cách dùng: Cách nhờ vả lịch sự, nghĩa là có thể làm giúp tôi không.",もう一度説明していただけませんか。,Anh/chị có thể giải thích lại một lần nữa được không?,0,0,False
+いたします,Làm (dạng lịch sự của する)...,N4,"Cấu trúc: いたします. 
+Cách dùng: Khiêm nhường ngữ của する, dùng khi nói hành động của bản thân một cách lịch sự.",明日こちらからご連絡いたします。,Ngày mai chúng tôi sẽ liên lạc lại.,0,0,False
+条件形,Thể điều kiện,N4,"Cấu trúc: Vば / Aければ / Nなら. 
+Cách dùng: Thể điều kiện, dùng để nói nếu... thì...",時間があれば、映画を見ます。,Nếu có thời gian thì tôi xem phim.,0,0,False
+か,Không...？,N4,Cấu trúc: 普通形 + か. 
+Cách dùng: Dùng trong câu hỏi gián tiếp hoặc câu hỏi.,彼が来るか分かりません。,Tôi không biết anh ấy có đến hay không.,0,0,False
+かどうか,hay không？,N4,Cấu trúc: 普通形 + かどうか. 
+Cách dùng: Diễn tả “có... hay không”.,明日雨が降るかどうか分かりません。,Tôi không biết ngày mai có mưa hay không.,0,0,False
+かもしれません,Không chừng/có thể,N4,"Cấu trúc: 普通形 + かもしれません. 
+Cách dùng: Diễn tả khả năng không chắc chắn, nghĩa là có thể/không chừng.",午後から雨が降るかもしれません。,Chiều nay có thể trời sẽ mưa.,0,0,False
+可能形,Thể khả năng,N4,"Cấu trúc: V khả năng: 行ける / 食べられる / できる. 
+Cách dùng: Thể khả năng, dùng để nói có thể làm gì.",私は日本語が少し話せます。,Tôi có thể nói tiếng Nhật một chút.,0,0,False
+からつくります,Làm từ/bằng...,N4,Cấu trúc: N + から作ります. 
+Cách dùng: Diễn tả làm từ nguyên liệu đã biến đổi không còn thấy rõ ban đầu.,ワインはぶどうから作られます。,Rượu vang được làm từ nho.,0,0,False
+かしら,Không biết là.../phân vân là...,N4,"Cấu trúc: 普通形 + かしら. 
+Cách dùng: Cách nói mềm để tự hỏi/không biết là..., thường nữ tính.",明日は晴れるかしら。,Không biết ngày mai trời có nắng không nhỉ.,0,0,False
+謙譲語,Thể khiêm nhường ngữ,N4,"Cấu trúc: 伺う / 申す / いたす.... 
+Cách dùng: Khiêm nhường ngữ, dùng để hạ thấp hành động của mình khi nói với người trên.",明日先生のお宅へ伺います。,Ngày mai tôi sẽ đến nhà thầy/cô.,0,0,False
+禁止形,Thể cấm chỉ,N4,"Cấu trúc: Vる + な. 
+Cách dùng: Thể cấm chỉ, dùng để ra lệnh không được làm gì.",ここで写真を撮るな。,Không được chụp ảnh ở đây.,0,0,False
+きっと,Chắc chắn...,N4,Cấu trúc: きっと + câu. 
+Cách dùng: Diễn tả sự chắc chắn cao theo suy nghĩ của người nói.,彼はきっと来ます。,Anh ấy chắc chắn sẽ đến.,0,0,False
+頃,Khoảng/tầm...,N4,Cấu trúc: Thời điểm + 頃. 
+Cách dùng: Diễn tả khoảng/tầm một thời điểm.,七時頃に家を出ます。,Khoảng 7 giờ tôi ra khỏi nhà.,0,0,False
+くださいませんか,Có được không...,N4,Cấu trúc: Vて + くださいませんか. 
+Cách dùng: Cách nhờ vả lịch sự hơn ください.,この漢字を教えてくださいませんか。,Anh/chị có thể chỉ cho tôi chữ Hán này được không?,0,0,False
+くする,Làm cho...,N4,Cấu trúc: Aい bỏ い + くする. 
+Cách dùng: Diễn tả làm cho tính chất trở nên như vậy.,部屋を明るくしました。,Tôi đã làm căn phòng sáng hơn.,0,0,False
+急に,Đột nhiên/đột ngột/bất ngờ....,N4,Cấu trúc: 急に + câu. 
+Cách dùng: Diễn tả sự việc xảy ra đột nhiên/bất ngờ.,急に雨が降り出しました。,Trời đột nhiên bắt đầu mưa.,0,0,False
+まだ,Vẫn/vẫn còn...,N4,Cấu trúc: まだ + câu. 
+Cách dùng: Diễn tả vẫn/vẫn còn.,彼はまだ学生です。,Anh ấy vẫn còn là học sinh/sinh viên.,0,0,False
+まだ～いません,Vẫn chưa...,N4,Cấu trúc: まだ + Vていません. 
+Cách dùng: Diễn tả vẫn chưa làm gì.,まだ昼ご飯を食べていません。,Tôi vẫn chưa ăn trưa.,0,0,False
+または,Hoặc là...,N4,"Cấu trúc: N または N. 
+Cách dùng: Dùng để lựa chọn một trong hai, nghĩa là hoặc là.",現金またはカードで払えます。,Có thể trả bằng tiền mặt hoặc thẻ.,0,0,False
+命令形,Thể mệnh lệnh,N4,"Cấu trúc: V mệnh lệnh: 行け / 食べろ / しろ. 
+Cách dùng: Thể mệnh lệnh, dùng để ra lệnh mạnh.",早く行け。,Đi nhanh lên.,0,0,False
+も,Đến/đến mức...,N4,Cấu trúc: Số lượng + も. 
+Cách dùng: Nhấn mạnh số lượng nhiều đến mức bất ngờ.,昨日は十時間も寝ました。,Hôm qua tôi đã ngủ đến 10 tiếng.,0,0,False
+もしかしたら,Có thể là/hoặc là/biết đâu...,N4,"Cấu trúc: もしかしたら + câu + かもしれません. 
+Cách dùng: Diễn tả khả năng có thể xảy ra, nghĩa là biết đâu/có thể là.",もしかしたら彼は来ないかもしれません。,Biết đâu anh ấy có thể không đến.,0,0,False
+んです,Vì/bởi vì...,N4,"Cấu trúc: 普通形 + んです / Nな + んです / Aな + んです. 
+Cách dùng: Dùng để giải thích, nhấn mạnh lý do hoặc tình huống.",頭が痛いんです。,Tôi bị đau đầu ấy.,0,0,False
+んですが,Ý tôi là/nhưng,N4,"Cấu trúc: 普通形 + んですが. 
+Cách dùng: Dùng để mở lời, giải thích tình huống trước khi nhờ/hỏi.",駅へ行きたいんですが、道を教えてください。,"Tôi muốn đi đến nhà ga, anh/chị chỉ đường giúp tôi được không?",0,0,False
+ながら,Vừa...vừa,N4,Cấu trúc: Vます bỏ ます + ながら. 
+Cách dùng: Diễn tả vừa làm việc này vừa làm việc khác.,音楽を聞きながら勉強します。,Tôi vừa nghe nhạc vừa học.,0,0,False
+ないで,Mà không...,N4,Cấu trúc: Vない + で. 
+Cách dùng: Diễn tả làm việc gì mà không làm việc khác.,朝ご飯を食べないで学校へ行きました。,Tôi đi học mà không ăn sáng.,0,0,False
+なくて,Vì/sau khi...,N4,Cấu trúc: Aい bỏ い + くなくて / Vない bỏ い + くて. 
+Cách dùng: Diễn tả lý do hoặc nối câu ở dạng phủ định.,お金がなくて、旅行に行けません。,Vì không có tiền nên tôi không thể đi du lịch.,0,0,False
+なら,Nếu mà/nếu là,N4,Cấu trúc: N / 普通形 + なら. 
+Cách dùng: Dùng khi đưa điều kiện hoặc lời khuyên dựa trên chủ đề được nêu.,日本へ行くなら、京都がおすすめです。,Nếu đi Nhật thì tôi gợi ý Kyoto.,0,0,False
+なさい,Hãy...,N4,"Cấu trúc: Vます bỏ ます + なさい. 
+Cách dùng: Mệnh lệnh nhẹ, thường người trên nói với người dưới/trẻ em.",早く寝なさい。,Hãy ngủ sớm đi.,0,0,False
+なさる,Làm/thực hiện (kính ngữ)...,N4,"Cấu trúc: なさる. 
+Cách dùng: Kính ngữ của する, dùng cho hành động của người trên.",先生は毎日研究なさっています。,Thầy/cô nghiên cứu mỗi ngày.,0,0,False
+に気がつく,Nhận thấy/chợt nhận ra...,N4,Cấu trúc: N + に気がつく. 
+Cách dùng: Diễn tả nhận ra/chợt nhận thấy điều gì.,財布がないことに気がつきました。,Tôi nhận ra là không có ví.,0,0,False
+にみえる,Trông giống như...,N4,Cấu trúc: N / Aい / Aな + に見える. 
+Cách dùng: Diễn tả trông có vẻ/trông giống như.,彼は疲れているように見えます。,Anh ấy trông có vẻ mệt.,0,0,False
+にする,Chọn/quyết định làm gì đó.,N4,Cấu trúc: N + にする. 
+Cách dùng: Diễn tả chọn/quyết định lấy cái gì hoặc làm thành trạng thái nào.,私はコーヒーにします。,Tôi chọn cà phê.,0,0,False
+によって,Do/bởi...,N4,Cấu trúc: N + によって. 
+Cách dùng: Diễn tả do/bởi/tùy theo.,国によって習慣が違います。,Tùy từng nước mà tập quán khác nhau.,0,0,False
+にくいです,Khó...,N4,Cấu trúc: Vます bỏ ます + にくいです. 
+Cách dùng: Diễn tả khó làm một hành động do tính chất khách quan.,この漢字は覚えにくいです。,Chữ Hán này khó nhớ.,0,0,False
+のを知っていますか,Có biết...hay không？,N4,Cấu trúc: 普通形 + のを知っていますか. 
+Cách dùng: Dùng để hỏi có biết một sự việc hay không.,彼が結婚したのを知っていますか。,Bạn có biết là anh ấy đã kết hôn không?,0,0,False
+のを忘れた,Quên...,N4,Cấu trúc: Vる + のを忘れた. 
+Cách dùng: Diễn tả quên làm việc gì.,宿題を出すのを忘れました。,Tôi đã quên nộp bài tập.,0,0,False
+ので,Vì là/do...,N4,Cấu trúc: 普通形 + ので / Nな + ので / Aな + ので. 
+Cách dùng: Diễn tả lý do một cách mềm hơn から.,雨が降っているので、出かけません。,Vì trời đang mưa nên tôi không ra ngoài.,0,0,False
+のが好き,Thích làm gì đó...,N4,Cấu trúc: Vる + のが好き. 
+Cách dùng: Diễn tả thích làm việc gì.,私は本を読むのが好きです。,Tôi thích đọc sách.,0,0,False
+のが～です,Là...,N4,Cấu trúc: Vる + のが + Aい/Aな/上手/下手. 
+Cách dùng: Danh từ hóa hành động để miêu tả đặc điểm/kỹ năng.,私は泳ぐのが苦手です。,Tôi không giỏi bơi.,0,0,False
+のに,Thế mà/vậy mà...,N4,"Cấu trúc: 普通形 + のに / Nな + のに / Aな + のに. 
+Cách dùng: Diễn tả “vậy mà/thế mà”, trái với dự đoán.",たくさん勉強したのに、試験に落ちました。,Dù đã học nhiều vậy mà tôi vẫn trượt kỳ thi.,0,0,False
+のは～です,Là...,N4,Cấu trúc: Vる + のは + N/Aです. 
+Cách dùng: Dùng để nhấn mạnh hoặc giải thích một hành động được danh từ hóa.,私が好きなのは日本語です。,Thứ tôi thích là tiếng Nhật.,0,0,False
+おきに,Cứ cách...,N4,Cấu trúc: Số lượng thời gian/khoảng cách + おきに. 
+Cách dùng: Diễn tả cứ cách một khoảng thì xảy ra/làm một lần.,このバスは十分おきに来ます。,Xe buýt này cứ 10 phút đến một chuyến.,0,0,False
+終わる,Hoàn thành/làm xong...,N4,Cấu trúc: Vます bỏ ます + 終わる. 
+Cách dùng: Diễn tả làm xong/hoàn thành hành động.,レポートを書き終わりました。,Tôi đã viết xong báo cáo.,0,0,False
+さ,Sự/độ/cái...,N4,Cấu trúc: Aい bỏ い + さ / Aな + さ. 
+Cách dùng: Biến tính từ thành danh từ chỉ mức độ/tính chất.,この山の高さは三千メートルです。,Độ cao của ngọn núi này là 3000 mét.,0,0,False
+さっき,Vừa nãy/lúc nãy...,N4,Cấu trúc: さっき + câu. 
+Cách dùng: Diễn tả lúc nãy/vừa nãy.,さっき先生から電話がありました。,Vừa nãy có điện thoại từ thầy/cô.,0,0,False
+さすが,Quả nhiên/quả là...,N4,Cấu trúc: さすが + N / câu. 
+Cách dùng: Dùng khi khen “quả nhiên đúng là...”,さすが田中さん、仕事が早いですね。,"Quả nhiên là anh Tanaka, làm việc nhanh thật.",0,0,False
+し～し,Vừa...vừa,N4,Cấu trúc: 普通形 + し、普通形 + し. 
+Cách dùng: Liệt kê nhiều lý do hoặc đặc điểm.,この店は安いし、おいしいし、よく行きます。,Quán này vừa rẻ vừa ngon nên tôi hay đi.,0,0,False
+使役形,Thể sai khiến,N4,"Cấu trúc: V sai khiến: 行かせる / 食べさせる / させる. 
+Cách dùng: Thể sai khiến, diễn tả bắt/cho phép ai làm gì.",母は子どもに野菜を食べさせました。,Mẹ bắt/cho con ăn rau.,0,0,False
+しか～ない,Chỉ...,N4,"Cấu trúc: N + しか + Vない. 
+Cách dùng: Diễn tả chỉ có/chỉ làm, mang sắc thái ít hoặc không đủ.",財布に千円しかありません。,Trong ví chỉ có 1000 yên.,0,0,False
+尊敬語,Tôn kính ngữ,N4,"Cấu trúc: いらっしゃる / なさる / お〜になる.... 
+Cách dùng: Tôn kính ngữ, dùng để nâng hành động của người trên/khách.",先生はもうお帰りになりました。,Thầy/cô đã về rồi.,0,0,False
+それで,Do đó/vì thế...,N4,"Cấu trúc: それで + câu. 
+Cách dùng: Dùng để nối kết quả, nghĩa là do đó/vì thế.",雨が降りました。それで試合は中止になりました。,Trời mưa. Vì thế trận đấu bị hủy.,0,0,False
+それに,Hơn thế nữa...,N4,"Cấu trúc: それに + câu. 
+Cách dùng: Dùng để thêm thông tin, nghĩa là hơn nữa/bên cạnh đó.",この部屋は広いです。それに明るいです。,Phòng này rộng. Hơn nữa còn sáng.,0,0,False
+それは,Cái đó/chuyện đó/thế thì...,N4,"Cấu trúc: それは + câu. 
+Cách dùng: Dùng để phản ứng với điều vừa nghe, nghĩa là chuyện đó/thế thì.",それは大変ですね。,Chuyện đó vất vả nhỉ.,0,0,False
+そうです,Nghe nói,N4,Cấu trúc: 普通形 + そうです. 
+Cách dùng: Diễn tả nghe nói theo nguồn thông tin.,天気予報によると、明日は雨だそうです。,"Theo dự báo thời tiết, nghe nói ngày mai trời mưa.",0,0,False
+すぎます,Quá...,N4,Cấu trúc: Vます bỏ ます / Aい bỏ い / Aな + すぎます. 
+Cách dùng: Diễn tả quá mức.,このケーキは甘すぎます。,Cái bánh này quá ngọt.,0,0,False

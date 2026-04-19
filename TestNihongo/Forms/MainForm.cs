@@ -15,7 +15,8 @@ namespace NihongoVocabTrainer.Forms
 		private readonly JTestHtmlParserService _jTestHtmlParserService = new JTestHtmlParserService();
 		private readonly ExamQuestionService _examQuestionService = new ExamQuestionService();
 		private string _testDataDirectoryPath = string.Empty;
-
+		private readonly JlptSenseiGrammarHtmlParserService _jlptSenseiGrammarHtmlParserService = new JlptSenseiGrammarHtmlParserService();
+		private readonly GrammarService _grammarService = new GrammarService();
 
 		/// <summary>
 		/// メイン画面を初期化します。
@@ -73,7 +74,7 @@ namespace NihongoVocabTrainer.Forms
 		{
 			#region Dataフォルダ取得
 
-			#if DEBUG
+#if DEBUG
 			DirectoryInfo? directory = new DirectoryInfo(AppContext.BaseDirectory);
 
 			while (directory != null)
@@ -96,7 +97,7 @@ namespace NihongoVocabTrainer.Forms
 
 				directory = directory.Parent;
 			}
-			#endif
+#endif
 
 			string exeDataPath = Path.Combine(AppContext.BaseDirectory, "Data");
 
@@ -586,20 +587,20 @@ namespace NihongoVocabTrainer.Forms
 		}
 
 		/// <summary>
-		/// インポート元のHTMLファイルまたはフォルダを削除するか確認し、必要に応じて削除します。
+		/// インポート元のファイルまたはフォルダ内の内容を削除するか確認し、必要に応じて削除します。
 		/// </summary>
-		/// <param name="htmlFiles">インポート対象HTMLファイル一覧</param>
+		/// <param name="files">インポート対象ファイル一覧</param>
 		/// <param name="selectedFolderPath">選択されたフォルダパス</param>
 		/// <param name="isFolderImport">フォルダインポートかどうか</param>
 		private void ConfirmAndDeleteImportSource(
-			string[] htmlFiles,
+			string[] files,
 			string selectedFolderPath,
 			bool isFolderImport)
 		{
 			#region インポート元削除確認
 
 			DialogResult deleteResult = MessageBox.Show(
-				"インポート元のHTMLデータを削除しますか？" + Environment.NewLine +
+				"インポート元のファイルを削除しますか？" + Environment.NewLine +
 				Environment.NewLine +
 				"はい：削除する" + Environment.NewLine +
 				"いいえ：削除しない",
@@ -620,10 +621,10 @@ namespace NihongoVocabTrainer.Forms
 				}
 				else
 				{
-					DeleteImportedFiles(htmlFiles);
+					DeleteImportedFiles(files);
 				}
 
-				MessageBox.Show("インポート元のHTMLデータを削除しました。");
+				MessageBox.Show("インポート元のファイルを削除しました。");
 			}
 			catch (Exception ex)
 			{
@@ -674,7 +675,6 @@ namespace NihongoVocabTrainer.Forms
 				return;
 			}
 
-			// フォルダ直下のファイルを削除します。
 			string[] files = Directory.GetFiles(
 				selectedFolderPath,
 				"*.*",
@@ -690,7 +690,6 @@ namespace NihongoVocabTrainer.Forms
 				File.Delete(file);
 			}
 
-			// フォルダ直下のサブフォルダを削除します。
 			string[] directories = Directory.GetDirectories(
 				selectedFolderPath,
 				"*",
@@ -862,6 +861,8 @@ namespace NihongoVocabTrainer.Forms
 			btnImportTestPdf.Text = "Import PDF 📚";
 			btnImportTestCsv.Text = "Import Test CSV 🧾";
 			btnExamMockTest.Text = "Exam Test 📝";
+			btnGrammar.Text = "Grammar 📘";
+			btnImportGrammarHtml.Text = "Import Grammar 📘";
 
 			Color primary = Color.FromArgb(186, 230, 253);
 			Color resetColor = Color.FromArgb(226, 232, 240);
@@ -888,6 +889,8 @@ namespace NihongoVocabTrainer.Forms
 			StyleButton(btnImportTestPdf, Color.FromArgb(216, 180, 254));
 			StyleButton(btnImportTestCsv, Color.FromArgb(216, 180, 254));
 			StyleButton(btnExamMockTest, Color.FromArgb(221, 214, 254));
+			StyleButton(btnGrammar, Color.FromArgb(251, 207, 232));
+			StyleButton(btnImportGrammarHtml, Color.FromArgb(251, 207, 232));
 
 			StyleSearchBox();
 			StyleComboBox();
@@ -1290,6 +1293,270 @@ namespace NihongoVocabTrainer.Forms
 
 			using var form = new ExamMockTestForm(targetQuestions);
 			form.ShowDialog();
+
+			#endregion
+		}
+
+		/// <summary>
+		/// 文法学習画面を開きます。
+		/// </summary>
+		private void btnGrammar_Click(object sender, EventArgs e)
+		{
+			#region 文法学習表示
+
+			using var form = new GrammarForm(_dataDirectoryPath);
+			form.ShowDialog();
+
+			if (form.IsChanged)
+			{
+				form.SaveGrammar();
+			}
+
+			#endregion
+		}
+
+		/// <summary>
+		/// JLPT Sensei の文法HTMLファイル、またはフォルダ内のHTMLファイルを一括インポートします。
+		/// インポート後、選択元のファイルまたはフォルダ内の内容を削除するか確認します。
+		/// </summary>
+		private void btnImportGrammarHtml_Click(object sender, EventArgs e)
+		{
+			#region 文法HTMLインポート方式選択
+
+			DialogResult importTypeResult = MessageBox.Show(
+				"文法HTMLのインポート方法を選択してください。" + Environment.NewLine +
+				Environment.NewLine +
+				"はい：HTMLファイルを選択" + Environment.NewLine +
+				"いいえ：HTMLフォルダを選択" + Environment.NewLine +
+				"キャンセル：中止",
+				"文法HTMLインポート",
+				MessageBoxButtons.YesNoCancel,
+				MessageBoxIcon.Question);
+
+			if (importTypeResult == DialogResult.Cancel)
+			{
+				return;
+			}
+
+			string[] htmlFiles;
+			string selectedFolderPath = string.Empty;
+			bool isFolderImport = false;
+
+			if (importTypeResult == DialogResult.Yes)
+			{
+				htmlFiles = SelectGrammarHtmlFiles();
+			}
+			else
+			{
+				htmlFiles = SelectGrammarHtmlFilesFromFolder(out selectedFolderPath);
+				isFolderImport = true;
+			}
+
+			if (htmlFiles.Length == 0)
+			{
+				return;
+			}
+
+			bool bError = false;
+
+			ImportGrammarHtmlFiles(htmlFiles, ref bError);
+
+			if (bError)
+			{
+				return;
+			}
+
+			ConfirmAndDeleteImportSource(htmlFiles, selectedFolderPath, isFolderImport);
+
+			#endregion
+		}
+
+		/// <summary>
+		/// 文法HTMLインポート用のJLPTレベルを決定します。
+		/// ファイル名にN1～N5が含まれる場合はそれを優先し、
+		/// 含まれない場合は画面で選択されたレベルを使用します。
+		/// </summary>
+		/// <param name="htmlFilePath">HTMLファイルパス</param>
+		/// <returns>JLPTレベル</returns>
+		private string ResolveGrammarImportLevel(string htmlFilePath)
+		{
+			#region 文法インポートレベル決定
+
+			string levelFromFileName = GetLevelFromFileName(htmlFilePath);
+
+			if (!string.IsNullOrWhiteSpace(levelFromFileName))
+			{
+				return levelFromFileName;
+			}
+
+			string selectedLevel = cboLevel.SelectedItem?.ToString()?.Trim() ?? string.Empty;
+
+			if (string.IsNullOrWhiteSpace(selectedLevel) || selectedLevel == "All")
+			{
+				MessageBox.Show(
+					"文法HTMLをインポートする前に、JLPTレベルを選択してください。" + Environment.NewLine +
+					"例：N3",
+					"レベル選択",
+					MessageBoxButtons.OK,
+					MessageBoxIcon.Warning);
+
+				cboLevel.Focus();
+
+				return string.Empty;
+			}
+
+			return selectedLevel;
+
+			#endregion
+		}
+
+		/// <summary>
+		/// インポート対象の文法HTMLファイルを複数選択します。
+		/// </summary>
+		/// <returns>HTMLファイルパス配列</returns>
+		private string[] SelectGrammarHtmlFiles()
+		{
+			#region 文法HTMLファイル選択
+
+			using var openFileDialog = new OpenFileDialog
+			{
+				Title = "文法HTMLファイルを選択してください。",
+				Filter = "HTML files (*.html;*.htm)|*.html;*.htm|All files (*.*)|*.*",
+				Multiselect = true
+			};
+
+			if (openFileDialog.ShowDialog() != DialogResult.OK)
+			{
+				return Array.Empty<string>();
+			}
+
+			return openFileDialog.FileNames;
+
+			#endregion
+		}
+
+		/// <summary>
+		/// フォルダを選択し、フォルダ内の文法HTMLファイルを取得します。
+		/// </summary>
+		/// <param name="selectedFolderPath">選択されたフォルダパス</param>
+		/// <returns>HTMLファイルパス配列</returns>
+		private string[] SelectGrammarHtmlFilesFromFolder(out string selectedFolderPath)
+		{
+			#region 文法HTMLフォルダ選択
+
+			selectedFolderPath = string.Empty;
+
+			using var folderBrowserDialog = new FolderBrowserDialog
+			{
+				Description = "文法HTMLファイルが保存されているフォルダを選択してください。",
+				UseDescriptionForTitle = true
+			};
+
+			if (folderBrowserDialog.ShowDialog() != DialogResult.OK)
+			{
+				return Array.Empty<string>();
+			}
+
+			selectedFolderPath = folderBrowserDialog.SelectedPath;
+
+			string[] htmlFiles = Directory
+				.GetFiles(selectedFolderPath, "*.*", SearchOption.TopDirectoryOnly)
+				.Where(x =>
+					string.Equals(Path.GetExtension(x), ".html", StringComparison.OrdinalIgnoreCase) ||
+					string.Equals(Path.GetExtension(x), ".htm", StringComparison.OrdinalIgnoreCase))
+				.ToArray();
+
+			if (htmlFiles.Length == 0)
+			{
+				MessageBox.Show("選択したフォルダにHTMLファイルがありません。");
+				return Array.Empty<string>();
+			}
+
+			return htmlFiles;
+
+			#endregion
+		}
+
+		/// <summary>
+		/// 指定された文法HTMLファイル一覧から文法データを一括インポートします。
+		/// ファイル名に N1～N5 が含まれる場合は、そのレベルを優先して設定します。
+		/// </summary>
+		/// <param name="htmlFiles">HTMLファイルパス配列</param>
+		/// <param name="bError">エラーが発生した場合は true</param>
+		private void ImportGrammarHtmlFiles(string[] htmlFiles, ref bool bError)
+		{
+			#region 文法HTML共通インポート
+
+			bError = false;
+
+			List<GrammarItem> grammarItems =
+				_grammarService.LoadAllFromDataDirectory(_dataDirectoryPath);
+
+			int addedCount = 0;
+			int skippedCount = 0;
+			int parsedFileCount = 0;
+
+			try
+			{
+				foreach (string htmlFilePath in htmlFiles)
+				{
+					string level = ResolveGrammarImportLevel(htmlFilePath);
+
+					if (string.IsNullOrWhiteSpace(level))
+					{
+						bError = true;
+						return;
+					}
+
+					List<GrammarItem> importedGrammarItems =
+						_jlptSenseiGrammarHtmlParserService.ParseFromHtmlFile(htmlFilePath, level);
+
+					if (importedGrammarItems.Count == 0)
+					{
+						continue;
+					}
+
+					parsedFileCount++;
+
+					foreach (GrammarItem importedGrammarItem in importedGrammarItems)
+					{
+						bool exists = grammarItems.Any(x =>
+							NormalizeText(x.Pattern) == NormalizeText(importedGrammarItem.Pattern) &&
+							NormalizeText(x.Level) == NormalizeText(importedGrammarItem.Level));
+
+						if (exists)
+						{
+							skippedCount++;
+							continue;
+						}
+
+						grammarItems.Add(importedGrammarItem);
+						addedCount++;
+					}
+				}
+
+				if (addedCount > 0)
+				{
+					_grammarService.SaveAllByLevel(_dataDirectoryPath, grammarItems);
+				}
+
+				MessageBox.Show(
+					$"{htmlFiles.Length}件のHTMLファイルを選択しました。{Environment.NewLine}" +
+					$"{parsedFileCount}件のHTMLファイルから文法を取得しました。{Environment.NewLine}" +
+					$"{addedCount}件の文法をインポートしました。{Environment.NewLine}" +
+					$"{skippedCount}件の重複文法をスキップしました。");
+			}
+			catch (Exception ex)
+			{
+				bError = true;
+
+				MessageBox.Show(
+					"文法HTMLインポート中にエラーが発生しました。" + Environment.NewLine +
+					ex.Message,
+					"インポートエラー",
+					MessageBoxButtons.OK,
+					MessageBoxIcon.Error);
+			}
 
 			#endregion
 		}

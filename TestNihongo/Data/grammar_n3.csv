@@ -1,0 +1,319 @@
+﻿Pattern,Meaning,Level,Usage,ExampleJapanese,ExampleVietnamese,CorrectCount,WrongCount,IsDifficult
+上げる,Làm...xong,N3,"Cấu trúc: Vます + 上げる.
+Cách dùng: Dùng để diễn tả: làm…xong.",彼は一晩でレポートを書き上げました。,Anh ấy đã viết xong bản báo cáo trong một đêm.,0,0,False
+合う,Làm điều gì đó cùng nhau...,N3,"Cấu trúc: Vます + 合う.
+Cách dùng: Dùng để diễn tả: làm điều gì đó cùng nhau….",困った時は友達と助け合います。,"Khi gặp khó khăn, tôi giúp đỡ lẫn nhau với bạn bè.",0,0,False
+ばよかった,Giá mà...thì tốt rồi,N3,"Cấu trúc: Vば + よかった.
+Cách dùng: Dùng để diễn tả: giá mà…thì tốt rồi.",もっと早く先生に相談すればよかった。,Giá mà tôi hỏi ý kiến giáo viên sớm hơn.,0,0,False
+ば～ほど,Càng...càng,N3,"Cấu trúc: Vば + Vるほど / Aいければ + Aいほど.
+Cách dùng: Dùng để diễn tả: càng…càng.",日本語は勉強すればするほど面白くなります。,Tiếng Nhật càng học càng trở nên thú vị.,0,0,False
+ば～のに,Thế mà/giá mà,N3,"Cấu trúc: Vば + のに.
+Cách dùng: Dùng để diễn tả: thế mà/giá mà.",もっと時間があれば、旅行に行けたのに。,Giá mà có thêm thời gian thì đã có thể đi du lịch rồi.,0,0,False
+ばかり,Toàn.../chỉ.../lúc nào cũng,N3,"Cấu trúc: N / Vて + ばかり.
+Cách dùng: Dùng để diễn tả: toàn…/chỉ…/lúc nào cũng.",彼はゲームばかりしています。,Anh ấy suốt ngày chỉ chơi game.,0,0,False
+ばかりか～も,Không chỉ có...mà còn,N3,"Cấu trúc: thể thông thường + ばかりか、...も.
+Cách dùng: Dùng để diễn tả: không chỉ có…mà còn.",彼は英語ばかりか、日本語も話せます。,Anh ấy không chỉ nói được tiếng Anh mà còn nói được tiếng Nhật.,0,0,False
+べきだ,Phải/nên làm gì,N3,"Cấu trúc: Vる + べきだ.
+Cách dùng: Dùng để diễn tả: phải/nên làm gì.",約束は守るべきです。,Lời hứa thì nên giữ.,0,0,False
+別に～ない,không thực sự/ không hẳn....,N3,"Cấu trúc: 別に + thể phủ định.
+Cách dùng: Dùng để diễn tả: không thực sự/ không hẳn…..",別に怒っていません。,Tôi không hẳn là đang giận đâu.,0,0,False
+ぶりに,sau (mới lại)...,N3,"Cấu trúc: khoảng thời gian + ぶりに.
+Cách dùng: Dùng để diễn tả: sau (mới lại)….",三年ぶりに友達に会いました。,Tôi đã gặp lại bạn sau ba năm.,0,0,False
+ちゃった,Làm gì đó mất rồi,N3,"Cấu trúc: Vてしまったのdạng nói chuyện.
+Cách dùng: Dùng để diễn tả: làm gì đó mất rồi.",大事な書類を忘れちゃった。,Tôi lỡ quên mất tài liệu quan trọng rồi.,0,0,False
+だけ,đến mức tối đa có thể.../ được chừng nào hay chừng đó...,N3,"Cấu trúc: Vる / N + だけ.
+Cách dùng: Dùng để diễn tả: đến mức tối đa có thể…/ được chừng nào hay chừng đó….",食べたいだけ食べてください。,Hãy ăn chừng nào bạn muốn.,0,0,False
+だけでなく,không chỉ...mà còn/ không những...mà còn...,N3,"Cấu trúc: N / thể thông thường + だけでなく、...も.
+Cách dùng: Dùng để diễn tả: không chỉ…mà còn/ không những…mà còn….",彼女は歌だけでなく、ダンスも上手です。,Cô ấy không chỉ hát hay mà còn nhảy giỏi.,0,0,False
+だけしか,Chỉ ... mà thôi,N3,"Cấu trúc: N + だけしか + thể phủ định.
+Cách dùng: Dùng để diễn tả: chỉ … mà thôi.",財布には千円だけしかありません。,Trong ví chỉ có đúng 1000 yên thôi.,0,0,False
+だけど,Nhưng mà,N3,"Cấu trúc: câu + だけど.
+Cách dùng: Dùng để diễn tả: nhưng mà.",行きたいだけど、時間がありません。,Tôi muốn đi nhưng không có thời gian.,0,0,False
+ですから,Vì vậy,N3,"Cấu trúc: câu + ですから.
+Cách dùng: Dùng để diễn tả: vì vậy.",今日は雨です。ですから、家にいます。,Hôm nay trời mưa. Vì vậy tôi ở nhà.,0,0,False
+どんなに～ても,Cho dù có như thế nào/cho dù là bao nhiêu đi nữa,N3,"Cấu trúc: どんなに + Vても / Aいても.
+Cách dùng: Dùng để diễn tả: cho dù có như thế nào/cho dù là bao nhiêu đi nữa.",どんなに忙しくても、毎日日本語を勉強します。,"Dù bận thế nào, tôi vẫn học tiếng Nhật mỗi ngày.",0,0,False
+どうしても,"bằng bất cứ giá nào, dù thế nào đi chăng nữa",N3,"Cấu trúc: どうしても + Vたい / thể phủ định.
+Cách dùng: Dùng để diễn tả: bằng bất cứ giá nào, dù thế nào đi chăng nữa.",どうしても日本へ行きたいです。,Dù thế nào tôi cũng muốn đi Nhật.,0,0,False
+ふりをする,Giả vờ làm gì/Tỏ ra như thể là...,N3,"Cấu trúc: thể thông thường + ふりをする.
+Cách dùng: Dùng để diễn tả: giả vờ làm gì/Tỏ ra như thể là….",彼は知らないふりをしました。,Anh ấy giả vờ không biết.,0,0,False
+ふと,Đột nhiên/bất ngờ/chợt,N3,"Cấu trúc: ふと + V.
+Cách dùng: Dùng để diễn tả: đột nhiên/bất ngờ/chợt.",ふと昔の友達を思い出しました。,Tôi chợt nhớ đến người bạn cũ.,0,0,False
+がる,Ý muốn(của người khác),N3,"Cấu trúc: Aい語幹 / 欲しい→欲しがる.
+Cách dùng: Dùng để diễn tả: ý muốn(của người khác).",子どもが新しいおもちゃを欲しがっています。,Đứa trẻ đang muốn có món đồ chơi mới.,0,0,False
+ごらん,Hãy làm/thử xem...,N3,"Cấu trúc: Vて + ごらん.
+Cách dùng: Dùng để diễn tả: hãy làm/thử xem….",分からなかったら、もう一度読んでごらん。,Nếu không hiểu thì thử đọc lại một lần nữa xem.,0,0,False
+ごとに,mỗi/cứ mỗi/cứ...lại...,N3,"Cấu trúc: N / Vる + ごとに.
+Cách dùng: Dùng để diễn tả: mỗi/cứ mỗi/cứ…lại….",会うごとに彼の日本語は上手になります。,"Mỗi lần gặp, tiếng Nhật của anh ấy lại giỏi hơn.",0,0,False
+はずだ,Chắc chắn là…,N3,"Cấu trúc: thể thông thường + はずだ.
+Cách dùng: Dùng để diễn tả: chắc chắn là….",彼は毎日勉強しているから、合格するはずです。,Anh ấy học mỗi ngày nên chắc chắn sẽ đậu.,0,0,False
+ほど,Thường...(hơn),N3,"Cấu trúc: thể thông thường + ほど.
+Cách dùng: Dùng để diễn tả: thường…(hơn).",今日は歩けないほど疲れました。,Hôm nay tôi mệt đến mức không thể đi bộ.,0,0,False
+ほど～ない,Không bằng như.../không tới mức như...,N3,"Cấu trúc: N / thể thông thường + ほど...ない.
+Cách dùng: Dùng để diễn tả: không bằng như…/không tới mức như….",この町は東京ほどにぎやかではありません。,Thành phố này không nhộn nhịp bằng Tokyo.,0,0,False
+一度に,Cùng một lúc/tất cả trong một...,N3,"Cấu trúc: 一度に + số lượng / 動作.
+Cách dùng: Dùng để diễn tả: cùng một lúc/tất cả trong một….",一度にたくさんの単語を覚えるのは大変です。,Học nhiều từ vựng cùng một lúc rất vất vả.,0,0,False
+いくら～ても,bất kể thế nào/dù thế nào đi chăng nữa...,N3,"Cấu trúc: いくら + Vても / Aいても.
+Cách dùng: Dùng để diễn tả: bất kể thế nào/dù thế nào đi chăng nữa….",いくら説明しても、彼は分かってくれません。,"Dù tôi giải thích bao nhiêu, anh ấy cũng không hiểu cho tôi.",0,0,False
+一体,Rốt cuộc/ không biết là/ vậy thì,N3,"Cấu trúc: từ nghi vấnと一緒に使い、驚きや強い疑問を表す.
+Cách dùng: Dùng để diễn tả: rốt cuộc/ không biết là/ vậy thì.",一体何が起こったのですか。,Rốt cuộc đã xảy ra chuyện gì vậy?,0,0,False
+か何か,Hay gì đó,N3,"Cấu trúc: N + か何か.
+Cách dùng: Dùng để diễn tả: hay gì đó.",コーヒーか何か飲みませんか。,Bạn uống cà phê hay gì đó không?,0,0,False
+かける,Chưa xong/dở dang,N3,"Cấu trúc: Vます + かける.
+Cách dùng: Dùng để diễn tả: chưa xong/dở dang.",読みかけの本を机に置きました。,Tôi đặt cuốn sách đang đọc dở lên bàn.,0,0,False
+かなあ,Hay sao/mong sao/có...không đây,N3,"Cấu trúc: thể thông thường + かなあ.
+Cách dùng: Dùng để diễn tả: hay sao/mong sao/có…không đây.",明日は晴れるかなあ。,Không biết ngày mai trời có nắng không nhỉ.,0,0,False
+必ずしも～とは限らない,Không nhất thiết là...,N3,"Cấu trúc: 必ずしも + câu + とは限らない.
+Cách dùng: Dùng để diễn tả: không nhất thiết là….",高い物が必ずしも良いとは限りません。,Đồ đắt không nhất thiết lúc nào cũng tốt.,0,0,False
+から～にかけて,Từ...đến,N3,"Cấu trúc: N + から + N + にかけて.
+Cách dùng: Dùng để diễn tả: từ…đến.",関東から東北にかけて雪が降るでしょう。,Tuyết có lẽ sẽ rơi từ vùng Kanto đến Tohoku.,0,0,False
+代わりに,Thay vì/đổi lại/thay cho,N3,"Cấu trúc: Nの / Vる + 代わりに.
+Cách dùng: Dùng để diễn tả: thay vì/đổi lại/thay cho.",今日は母の代わりに私が料理をします。,Hôm nay tôi sẽ nấu ăn thay mẹ.,0,0,False
+結局,Sau tất cả/ cuối cùng,N3,"Cấu trúc: 結局 + câu.
+Cách dùng: Dùng để diễn tả: sau tất cả/ cuối cùng.",いろいろ考えましたが、結局行くことにしました。,"Tôi đã suy nghĩ nhiều, cuối cùng quyết định đi.",0,0,False
+決して～ない,Nhất định không/tuyệt đối không,N3,"Cấu trúc: 決して + thể phủ định.
+Cách dùng: Dùng để diễn tả: nhất định không/tuyệt đối không.",この秘密は決して誰にも言いません。,Bí mật này tôi tuyệt đối không nói với ai.,0,0,False
+きり,Chỉ có/có,N3,"Cấu trúc: N / Vた + きり.
+Cách dùng: Dùng để diễn tả: chỉ có/có.",彼とは去年会ったきりです。,Tôi gặp anh ấy từ năm ngoái rồi sau đó không gặp nữa.,0,0,False
+切る / 切れる / 切れない,Hết/không hết,N3,"Cấu trúc: Vます + 切る / 切れる / 切れない.
+Cách dùng: Dùng để diễn tả: hết/không hết.",こんなに多い料理は一人では食べ切れません。,Nhiều món ăn thế này một mình tôi không thể ăn hết.,0,0,False
+っけ,Có phải...đúng không/có phải là,N3,"Cấu trúc: thể thông thường + っけ.
+Cách dùng: Dùng để diễn tả: có phải…đúng không/có phải là.",明日の集合時間は何時だっけ。,Giờ tập trung ngày mai là mấy giờ nhỉ?,0,0,False
+込む,(Nhét) vào/ (chất) lên,N3,"Cấu trúc: Vます + 込む.
+Cách dùng: Dùng để diễn tả: (Nhét) vào/ (chất) lên.",彼は資料をかばんに詰め込みました。,Anh ấy nhét tài liệu vào cặp.,0,0,False
+こそ,Chính là.../nhất định là,N3,"Cấu trúc: N + こそ.
+Cách dùng: Dùng để diễn tả: chính là…/nhất định là.",今年こそJLPTに合格したいです。,Chính năm nay tôi muốn đậu JLPT.,0,0,False
+こと,Về việc,N3,"Cấu trúc: thể thông thường + こと.
+Cách dùng: Dùng để diễn tả: về việc.",毎日勉強することは大切です。,Việc học mỗi ngày là quan trọng.,0,0,False
+ことだ,Nên/không nên,N3,"Cấu trúc: Vる / Vない + ことだ.
+Cách dùng: Dùng để diễn tả: nên/không nên.",上手になりたければ、毎日練習することです。,Nếu muốn giỏi lên thì nên luyện tập mỗi ngày.,0,0,False
+ことになる,Sẽ/được quy định là,N3,"Cấu trúc: Vる / Vない + ことになる.
+Cách dùng: Dùng để diễn tả: sẽ/được quy định là.",来月から大阪へ転勤することになりました。,Từ tháng sau tôi được quyết định chuyển công tác đến Osaka.,0,0,False
+ことにする,Cố gắng/quyết định(làm gì),N3,"Cấu trúc: Vる / Vない + ことにする.
+Cách dùng: Dùng để diễn tả: cố gắng/quyết định(làm gì).",健康のために毎朝走ることにしました。,Tôi đã quyết định chạy bộ mỗi sáng vì sức khỏe.,0,0,False
+ことはない,Không cần phải,N3,"Cấu trúc: Vる + ことはない.
+Cách dùng: Dùng để diễn tả: không cần phải.",そんなに心配することはありません。,Bạn không cần lo lắng đến thế đâu.,0,0,False
+ことは～が,Thì...nhưng mà,N3,"Cấu trúc: thể thông thường + ことは + 同じ語 + が.
+Cách dùng: Dùng để diễn tả: thì…nhưng mà.",読めることは読めますが、意味は分かりません。,"Đọc thì có đọc được, nhưng tôi không hiểu nghĩa.",0,0,False
+くらい,Đến cỡ/đến mức/cỡ,N3,"Cấu trúc: N / thể thông thường + くらい.
+Cách dùng: Dùng để diễn tả: đến cỡ/đến mức/cỡ.",泣きたいくらい悔しかったです。,Tôi tiếc đến mức muốn khóc.,0,0,False
+くらい～はない,Cỡ như...thì không,N3,"Cấu trúc: N + くらい...はない.
+Cách dùng: Dùng để diễn tả: cỡ như…thì không.",家族くらい大切なものはありません。,Không có gì quan trọng bằng gia đình.,0,0,False
+くれと,Được nói/bị nói/bị nhắc nhở,N3,"Cấu trúc: Vてくれ + と.
+Cách dùng: Dùng để diễn tả: được nói/bị nói/bị nhắc nhở.",母に早く帰ってくれと言われました。,Tôi bị mẹ bảo hãy về sớm.,0,0,False
+くせに,Dù.../mà.../lại còn,N3,"Cấu trúc: thể thông thường + くせに.
+Cách dùng: Dùng để diễn tả: dù…/mà…/lại còn.",彼は何も知らないくせに、偉そうに話します。,Anh ấy chẳng biết gì mà lại nói như vẻ ta đây.,0,0,False
+まで,Cho đến khi,N3,"Cấu trúc: N / Vる + まで.
+Cách dùng: Dùng để diễn tả: cho đến khi.",終わるまでここで待ちます。,Tôi sẽ đợi ở đây cho đến khi xong.,0,0,False
+まま,Cứ để nguyên/giữ nguyên,N3,"Cấu trúc: Vた / Vない / Nの + まま.
+Cách dùng: Dùng để diễn tả: cứ để nguyên/giữ nguyên.",電気をつけたまま寝てしまいました。,Tôi đã ngủ quên trong lúc vẫn bật đèn.,0,0,False
+まるで～よう,Cứ như là/giống như là,N3,"Cấu trúc: まるで + Nのようだ / thể thông thườngようだ.
+Cách dùng: Dùng để diễn tả: cứ như là/giống như là.",彼の話はまるで映画のようです。,Câu chuyện của anh ấy cứ như phim vậy.,0,0,False
+まさか,Không thể nào/ lẽ nào/ làm gì có chuyện,N3,"Cấu trúc: まさか + câu.
+Cách dùng: Dùng để diễn tả: không thể nào/ lẽ nào/ làm gì có chuyện.",まさか彼が辞めるとは思いませんでした。,Tôi không ngờ là anh ấy lại nghỉ việc.,0,0,False
+ますように,Mong sao,N3,"Cấu trúc: Vます + ように.
+Cách dùng: Dùng để diễn tả: mong sao.",試験に合格できますように。,Mong là tôi có thể đậu kỳ thi.,0,0,False
+まったく～ない,Hoàn toàn không,N3,"Cấu trúc: まったく + thể phủ định.
+Cách dùng: Dùng để diễn tả: hoàn toàn không.",彼の説明はまったく分かりません。,Tôi hoàn toàn không hiểu lời giải thích của anh ấy.,0,0,False
+めったにない,Hiếm khi,N3,"Cấu trúc: めったに + thể phủ định.
+Cách dùng: Dùng để diễn tả: hiếm khi.",こんなチャンスはめったにありません。,Cơ hội như thế này hiếm khi có.,0,0,False
+み,Điểm/sự(danh từ),N3,"Cấu trúc: Aい語幹 + み.
+Cách dùng: Dùng để diễn tả: điểm/sự(danh từ).",この料理には甘みがあります。,Món ăn này có vị ngọt.,0,0,False
+みたい,Giống như là.../có vẻ như là.../giống như,N3,"Cấu trúc: N / thể thông thường + みたい.
+Cách dùng: Dùng để diễn tả: giống như là…/có vẻ như là…/giống như.",今日は春みたいに暖かいです。,Hôm nay ấm như mùa xuân.,0,0,False
+ものだ,Đã thường làm gì,N3,"Cấu trúc: thể thông thường + ものだ.
+Cách dùng: Dùng để diễn tả: đã thường làm gì.",子どもの頃はよく川で遊んだものです。,Hồi nhỏ tôi thường chơi ở sông.,0,0,False
+もし～たなら,Giả sử là...thì,N3,"Cấu trúc: もし + Vたなら.
+Cách dùng: Dùng để diễn tả: giả sử là…thì.",もし時間があったなら、京都へ行きたいです。,Nếu có thời gian thì tôi muốn đi Kyoto.,0,0,False
+もし～としても,Giả sử là...thì cũng,N3,"Cấu trúc: もし + thể thông thường + としても.
+Cách dùng: Dùng để diễn tả: giả sử là…thì cũng.",もし失敗したとしても、もう一度挑戦します。,"Dù giả sử thất bại, tôi vẫn sẽ thử lại lần nữa.",0,0,False
+もしかすると～かもしれない,Có lẽ là/có khả năng là,N3,"Cấu trúc: もしかすると + thể thông thường + かもしれない.
+Cách dùng: Dùng để diễn tả: có lẽ là/có khả năng là.",もしかすると電車が遅れるかもしれません。,Có lẽ tàu sẽ bị trễ.,0,0,False
+もしも～なら,Giả sử/nếu...thì/thì cũng,N3,"Cấu trúc: もしも + thể thông thường + なら.
+Cách dùng: Dùng để diễn tả: giả sử/nếu…thì/thì cũng.",もしも宝くじが当たったなら、家を買います。,Nếu trúng xổ số thì tôi sẽ mua nhà.,0,0,False
+むしろ,Hơn là/ thà là...còn hơn,N3,"Cấu trúc: むしろ + câu.
+Cách dùng: Dùng để diễn tả: hơn là/ thà là…còn hơn.",彼は怒っているというより、むしろ悲しそうです。,"Anh ấy không hẳn tức giận, mà đúng hơn là có vẻ buồn.",0,0,False
+んだもん,Thì là vì,N3,"Cấu trúc: thể thông thường + んだもん.
+Cách dùng: Dùng để diễn tả: thì là vì.",行きたくないんだもん。,Vì tôi không muốn đi mà.,0,0,False
+んだって,Nghe nói là,N3,"Cấu trúc: thể thông thường + んだって.
+Cách dùng: Dùng để diễn tả: nghe nói là.",彼、来月結婚するんだって。,Nghe nói anh ấy tháng sau sẽ kết hôn.,0,0,False
+ないと,Phải/bắt buộc.,N3,"Cấu trúc: Vない + と.
+Cách dùng: Dùng để diễn tả: phải/bắt buộc..",早く寝ないと、明日起きられません。,Nếu không ngủ sớm thì mai sẽ không dậy được.,0,0,False
+ないことはない,Không phải là không,N3,"Cấu trúc: Vないことはない / Aいくないことはない.
+Cách dùng: Dùng để diễn tả: không phải là không.",行けないことはないですが、少し遠いです。,"Không phải là không đi được, nhưng hơi xa.",0,0,False
+なかなか,Rất/ khá/ mãi mà/ khó mà,N3,"Cấu trúc: なかなか + 肯定 / 否定.
+Cách dùng: Dùng để diễn tả: rất/ khá/ mãi mà/ khó mà.",この問題はなかなか難しいです。,Câu hỏi này khá khó.,0,0,False
+なんか,Mấy thứ như/mấy chuyện như,N3,"Cấu trúc: N + なんか.
+Cách dùng: Dùng để diễn tả: mấy thứ như/mấy chuyện như.",私なんかまだまだです。,Người như tôi thì vẫn còn kém lắm.,0,0,False
+なと,Bị nói/bị nhắc nhở...là hãy làm gì đó,N3,"Cấu trúc: Vるな / Vなさい + と.
+Cách dùng: Dùng để diễn tả: bị nói/bị nhắc nhở…là hãy làm gì đó.",先生に遅れるなと言われました。,Tôi bị giáo viên bảo là đừng đến muộn.,0,0,False
+なぜなら,Bởi vì,N3,"Cấu trúc: なぜなら + 理由.
+Cách dùng: Dùng để diễn tả: bởi vì.",今日は行けません。なぜなら、仕事があるからです。,Hôm nay tôi không thể đi. Bởi vì tôi có việc.,0,0,False
+に関して,Về/Liên quan đến,N3,"Cấu trúc: N + に関して.
+Cách dùng: Dùng để diễn tả: về/Liên quan đến.",試験に関して質問があります。,Tôi có câu hỏi liên quan đến kỳ thi.,0,0,False
+に代わって,Thay cho/thay mặt,N3,"Cấu trúc: N + に代わって.
+Cách dùng: Dùng để diễn tả: thay cho/thay mặt.",部長に代わって私が説明します。,Tôi sẽ giải thích thay cho trưởng phòng.,0,0,False
+に慣れる,Quen với một cái gì đó,N3,"Cấu trúc: N / Vること + に慣れる.
+Cách dùng: Dùng để diễn tả: quen với một cái gì đó.",日本の生活に慣れてきました。,Tôi đã dần quen với cuộc sống ở Nhật.,0,0,False
+において,"Tại, ở, trong",N3,"Cấu trúc: N + において.
+Cách dùng: Dùng để diễn tả: tại, ở, trong.",会議は東京において行われます。,Cuộc họp sẽ được tổ chức tại Tokyo.,0,0,False
+に対して,Đối với,N3,"Cấu trúc: N + に対して.
+Cách dùng: Dùng để diễn tả: đối với.",先生に対して失礼なことを言ってはいけません。,Không được nói điều thất lễ với giáo viên.,0,0,False
+にとって,Đối với,N3,"Cấu trúc: N + にとって.
+Cách dùng: Dùng để diễn tả: đối với.",私にとって家族が一番大切です。,"Đối với tôi, gia đình là quan trọng nhất.",0,0,False
+について,Về,N3,"Cấu trúc: N + について.
+Cách dùng: Dùng để diễn tả: về.",日本文化について調べています。,Tôi đang tìm hiểu về văn hóa Nhật.,0,0,False
+によれば,Theo... / Dựa vào,N3,"Cấu trúc: N + によれば.
+Cách dùng: Dùng để diễn tả: theo… / Dựa vào.",ニュースによれば、明日は雨だそうです。,Theo tin tức thì nghe nói ngày mai trời mưa.,0,0,False
+によって,Được/bởi,N3,"Cấu trúc: N + によって.
+Cách dùng: Dùng để diễn tả: được/bởi.",国によって習慣が違います。,Tùy theo quốc gia mà phong tục khác nhau.,0,0,False
+に～れる,Bị(ai đó/ cái gì đó),N3,"Cấu trúc: N + に + 受身形.
+Cách dùng: Dùng để diễn tả: bị(ai đó/ cái gì đó).",私は先生に褒められました。,Tôi đã được giáo viên khen.,0,0,False
+に比べて,So với,N3,"Cấu trúc: N + に比べて.
+Cách dùng: Dùng để diễn tả: so với.",去年に比べて、今年は暑いです。,"So với năm ngoái, năm nay nóng hơn.",0,0,False
+にしても,Cho dù,N3,"Cấu trúc: N / thể thông thường + にしても.
+Cách dùng: Dùng để diễn tả: cho dù.",行くにしても、早く出た方がいいです。,Dù có đi thì cũng nên đi sớm.,0,0,False
+にしては,Vậy mà,N3,"Cấu trúc: N / thể thông thường + にしては.
+Cách dùng: Dùng để diễn tả: vậy mà.",初めてにしては、よくできました。,Lần đầu mà làm được như vậy là tốt rồi.,0,0,False
+の,Việc(danh từ),N3,"Cấu trúc: thể thông thường + の.
+Cách dùng: Dùng để diễn tả: việc(danh từ).",本を読むのが好きです。,Tôi thích việc đọc sách.,0,0,False
+おかげで,Nhờ vào/nhờ có,N3,"Cấu trúc: Nの / thể thông thường + おかげで.
+Cách dùng: Dùng để diễn tả: nhờ vào/nhờ có.",先生のおかげで合格できました。,Nhờ giáo viên mà tôi đã đậu.,0,0,False
+っぱなし,"Để nguyên,giữ nguyên",N3,"Cấu trúc: Vます + っぱなし.
+Cách dùng: Dùng để diễn tả: để nguyên,giữ nguyên.",窓を開けっぱなしにしないでください。,Đừng để cửa sổ mở nguyên như vậy.,0,0,False
+っぽい,Giống như là,N3,"Cấu trúc: N / Aい語幹 / Vます + っぽい.
+Cách dùng: Dùng để diễn tả: giống như là.",この服は少し子どもっぽいです。,Bộ đồ này hơi trẻ con.,0,0,False
+らしい,Cảm thấy như là.../giống như là,N3,"Cấu trúc: N / thể thông thường + らしい.
+Cách dùng: Dùng để diễn tả: cảm thấy như là…/giống như là.",今日は雨が降るらしいです。,Hình như hôm nay trời sẽ mưa.,0,0,False
+れる,Bị/được(bị động),N3,"Cấu trúc: 受身形.
+Cách dùng: Dùng để diễn tả: bị/được(bị động).",私は友達に写真を撮られました。,Tôi đã bị bạn chụp ảnh.,0,0,False
+さ,Độ(danh từ)...,N3,"Cấu trúc: Aい語幹 + さ.
+Cách dùng: Dùng để diễn tả: độ(danh từ)….",この山の高さは三千メートルです。,Độ cao của ngọn núi này là 3000 mét.,0,0,False
+さえ,Ngay cả.../thậm chí,N3,"Cấu trúc: N + さえ.
+Cách dùng: Dùng để diễn tả: ngay cả…/thậm chí.",忙しくて昼ご飯を食べる時間さえありません。,Bận đến mức ngay cả thời gian ăn trưa cũng không có.,0,0,False
+最中に,"Đúng lúc đang,ngay giữa lúc đang",N3,"Cấu trúc: Vている / Nの + 最中に.
+Cách dùng: Dùng để diễn tả: đúng lúc đang,ngay giữa lúc đang.",食事の最中に電話が鳴りました。,Đang lúc ăn thì điện thoại reo.,0,0,False
+せいで,Vì/do,N3,"Cấu trúc: Nの / thể thông thường + せいで.
+Cách dùng: Dùng để diễn tả: vì/do.",雨のせいで試合が中止になりました。,Vì mưa mà trận đấu bị hủy.,0,0,False
+せいぜい,Tối đa/ nhiều lắm cũng chỉ,N3,"Cấu trúc: せいぜい + số lượng.
+Cách dùng: Dùng để diễn tả: tối đa/ nhiều lắm cũng chỉ.",ここから駅まで歩いてせいぜい十分です。,Từ đây đến ga đi bộ nhiều lắm cũng chỉ 10 phút.,0,0,False
+せてください,Có thể cho phép tôi ~ làm gì,N3,"Cấu trúc: 使役て形 + ください.
+Cách dùng: Dùng để diễn tả: có thể cho phép tôi ~ làm gì.",少し休ませてください。,Xin hãy cho tôi nghỉ một chút.,0,0,False
+しばらく,Một lúc/ trong một thời gian,N3,"Cấu trúc: しばらく + câu.
+Cách dùng: Dùng để diễn tả: một lúc/ trong một thời gian.",しばらくここで待っていてください。,Hãy đợi ở đây một lúc.,0,0,False
+しかない,Chỉ có thể,N3,"Cấu trúc: Vる + しかない.
+Cách dùng: Dùng để diễn tả: chỉ có thể.",終電がないので、タクシーで帰るしかありません。,Vì không còn chuyến tàu cuối nên chỉ còn cách về bằng taxi.,0,0,False
+その結果,Kết qủa là,N3,"Cấu trúc: その結果 + câu.
+Cách dùng: Dùng để diễn tả: kết qủa là.",毎日練習しました。その結果、上手になりました。,Tôi đã luyện tập mỗi ngày. Kết quả là đã giỏi lên.,0,0,False
+そのために,Vì thế/do đó,N3,"Cấu trúc: そのために + câu.
+Cách dùng: Dùng để diễn tả: vì thế/do đó.",日本で働きたいです。そのために日本語を勉強しています。,Tôi muốn làm việc ở Nhật. Vì mục tiêu đó tôi đang học tiếng Nhật.,0,0,False
+その上,Thêm vào đó/hơn nữa,N3,"Cấu trúc: その上 + câu.
+Cách dùng: Dùng để diễn tả: thêm vào đó/hơn nữa.",この店は安いです。その上、おいしいです。,Quán này rẻ. Hơn nữa còn ngon.,0,0,False
+それと,Và/vẫn còn,N3,"Cấu trúc: それと + câu.
+Cách dùng: Dùng để diễn tả: và/vẫn còn.",牛乳を買ってきて。それと、卵もお願い。,Mua sữa giúp tôi. Với lại mua cả trứng nữa nhé.,0,0,False
+それとも,Hay là/hoặc là,N3,"Cấu trúc: A、それともB.
+Cách dùng: Dùng để diễn tả: hay là/hoặc là.",コーヒーにしますか。それとも紅茶にしますか。,Bạn chọn cà phê hay trà?,0,0,False
+すでに,Đã...rồi,N3,"Cấu trúc: すでに + câu.
+Cách dùng: Dùng để diễn tả: đã…rồi.",会議はすでに始まっています。,Cuộc họp đã bắt đầu rồi.,0,0,False
+少しも～ない,Một chút cũng không,N3,"Cấu trúc: 少しも + thể phủ định.
+Cách dùng: Dùng để diễn tả: một chút cũng không.",彼の話は少しも分かりませんでした。,Tôi chẳng hiểu chút nào câu chuyện của anh ấy.,0,0,False
+たところ,Sau khi thử làm,N3,"Cấu trúc: Vた + ところ.
+Cách dùng: Dùng để diễn tả: sau khi thử làm.",先生に聞いたところ、試験は来週だそうです。,Sau khi hỏi giáo viên thì nghe nói kỳ thi là tuần sau.,0,0,False
+たとたんに,Vừa mới(làm gì)thì...,N3,"Cấu trúc: Vた + とたんに.
+Cách dùng: Dùng để diễn tả: vừa mới(làm gì)thì….",家を出たとたんに雨が降り出しました。,Vừa ra khỏi nhà thì trời bắt đầu mưa.,0,0,False
+たびに,"Mỗi khi,mỗi lần",N3,"Cấu trúc: Vる / Nの + たびに.
+Cách dùng: Dùng để diễn tả: mỗi khi,mỗi lần.",この写真を見るたびに、旅行を思い出します。,"Mỗi lần nhìn bức ảnh này, tôi lại nhớ chuyến du lịch.",0,0,False
+確かに,Chắc chắn/Không sai/chính xác là như vậy,N3,"Cấu trúc: 確かに + câu.
+Cách dùng: Dùng để diễn tả: chắc chắn/Không sai/chính xác là như vậy.",確かにこの方法は便利です。,Đúng là cách này tiện thật.,0,0,False
+たて,Mới...xong,N3,"Cấu trúc: Vます + たて.
+Cách dùng: Dùng để diễn tả: mới…xong.",焼きたてのパンはおいしいです。,Bánh mì mới nướng rất ngon.,0,0,False
+たとえ～ても,Giả sử/thậm chí là...thì cũng,N3,"Cấu trúc: たとえ + Vても / Aいても.
+Cách dùng: Dùng để diễn tả: giả sử/thậm chí là…thì cũng.",たとえ失敗しても、あきらめません。,"Dù có thất bại, tôi cũng không bỏ cuộc.",0,0,False
+例えば,Ví dụ như/chẳng hạn như,N3,"Cấu trúc: 例えば + 例.
+Cách dùng: Dùng để diễn tả: ví dụ như/chẳng hạn như.",日本の料理、例えば寿司やラーメンが好きです。,"Tôi thích món ăn Nhật, ví dụ như sushi và ramen.",0,0,False
+てはじめて,Làm gì đó thì bắt đầu,N3,"Cấu trúc: Vて + はじめて.
+Cách dùng: Dùng để diễn tả: làm gì đó thì bắt đầu.",一人暮らしをしてはじめて、親の大変さが分かりました。,"Sau khi sống một mình, tôi mới hiểu sự vất vả của bố mẹ.",0,0,False
+てほしい,Muốn(ai đó)làm gì,N3,"Cấu trúc: 人に + Vて + ほしい.
+Cách dùng: Dùng để diễn tả: muốn(ai đó)làm gì.",友達に手伝ってほしいです。,Tôi muốn bạn giúp tôi.,0,0,False
+て済む,Chỉ tốn (có)/giải quyết xong (chỉ bằng)/chỉ cần...là xong,N3,"Cấu trúc: Vて + 済む.
+Cách dùng: Dùng để diễn tả: chỉ tốn (có)/giải quyết xong (chỉ bằng)/chỉ cần…là xong.",電話一本で済みました。,Chỉ cần một cuộc điện thoại là xong.,0,0,False
+的,Mang tính/ mang tính chất/về mặt...,N3,"Cấu trúc: N + 的.
+Cách dùng: Dùng để diễn tả: mang tính/ mang tính chất/về mặt….",これはとても日本的な考え方です。,Đây là cách suy nghĩ rất Nhật Bản.,0,0,False
+ても,Dù là/cho dẫu là,N3,"Cấu trúc: Vても / Aいても.
+Cách dùng: Dùng để diễn tả: dù là/cho dẫu là.",雨が降っても、出かけます。,"Dù trời mưa, tôi vẫn ra ngoài.",0,0,False
+といいなあ,Ước gì/mong sao,N3,"Cấu trúc: thể thông thường + といいなあ.
+Cách dùng: Dùng để diễn tả: ước gì/mong sao.",明日晴れるといいなあ。,Ước gì ngày mai trời nắng.,0,0,False
+といっても,Dù nói là...nhưng,N3,"Cấu trúc: thể thông thường + といっても.
+Cách dùng: Dùng để diễn tả: dù nói là…nhưng.",日本語が話せるといっても、簡単な会話だけです。,"Dù nói là nói được tiếng Nhật, nhưng chỉ là hội thoại đơn giản thôi.",0,0,False
+という,Cái gọi là,N3,"Cấu trúc: N / câu + という + N.
+Cách dùng: Dùng để diễn tả: cái gọi là.",田中さんという人から電話がありました。,Có điện thoại từ một người tên Tanaka.,0,0,False
+ということだ,Dường như là/có nghĩa là,N3,"Cấu trúc: thể thông thường + ということだ.
+Cách dùng: Dùng để diễn tả: dường như là/có nghĩa là.",明日は休みだということです。,Nghe nói ngày mai được nghỉ.,0,0,False
+というの,Cái việc/ cái gọi là,N3,"Cấu trúc: thể thông thường + というの.
+Cách dùng: Dùng để diễn tả: cái việc/ cái gọi là.",彼が来ないというのは本当ですか。,Việc anh ấy không đến là thật sao?,0,0,False
+というのは,Nghĩa là,N3,"Cấu trúc: N / câu + というのは.
+Cách dùng: Dùng để diễn tả: nghĩa là.",敬語というのは、丁寧な話し方のことです。,Kính ngữ nghĩa là cách nói lịch sự.,0,0,False
+というと,Nói đến,N3,"Cấu trúc: N + というと.
+Cách dùng: Dùng để diễn tả: nói đến.",日本料理というと、寿司を思い出します。,Nói đến món Nhật thì tôi nhớ đến sushi.,0,0,False
+というより,Hơn là nói,N3,"Cấu trúc: thể thông thường + というより.
+Cách dùng: Dùng để diễn tả: hơn là nói.",彼は静かというより、元気がないようです。,"Anh ấy không phải là yên lặng, mà đúng hơn là có vẻ không khỏe.",0,0,False
+ところだった,Suýt chút nữa thì,N3,"Cấu trúc: Vる + ところだった.
+Cách dùng: Dùng để diễn tả: suýt chút nữa thì.",もう少しで電車に乗り遅れるところでした。,Suýt chút nữa tôi bị lỡ tàu.,0,0,False
+ところで,Nhân tiện thì/nhân dịp,N3,"Cấu trúc: ところで + câu.
+Cách dùng: Dùng để diễn tả: nhân tiện thì/nhân dịp.",ところで、週末は何をしますか。,"Nhân tiện, cuối tuần bạn làm gì?",0,0,False
+ところが,Nhưng mà,N3,"Cấu trúc: ところが + câu.
+Cách dùng: Dùng để diễn tả: nhưng mà.",彼に電話しました。ところが、出ませんでした。,Tôi đã gọi cho anh ấy. Nhưng anh ấy không nghe máy.,0,0,False
+とく,"Làm sẵn, làm trước việc gì",N3,"Cấu trúc: Vて + おくのdạng nói chuyện.
+Cách dùng: Dùng để diễn tả: làm sẵn, làm trước việc gì.",旅行の前にホテルを予約しときます。,Trước chuyến đi tôi sẽ đặt khách sạn trước.,0,0,False
+とおり,Đúng như,N3,"Cấu trúc: Nの / Vる / Vた + とおり.
+Cách dùng: Dùng để diễn tả: đúng như.",先生が言ったとおりに書いてください。,Hãy viết đúng như giáo viên đã nói.,0,0,False
+通す,Làm cho đến cùng/liên tục làm/qua...,N3,"Cấu trúc: Vます + 通す.
+Cách dùng: Dùng để diễn tả: làm cho đến cùng/liên tục làm/qua….",彼は自分の意見を最後まで言い通しました。,Anh ấy đã nói ý kiến của mình đến cùng.,0,0,False
+としたら,Giả sử/nếu cho rằng,N3,"Cấu trúc: thể thông thường + としたら.
+Cách dùng: Dùng để diễn tả: giả sử/nếu cho rằng.",留学するとしたら、日本に行きたいです。,Nếu đi du học thì tôi muốn đi Nhật.,0,0,False
+ついでに,Nhân tiện.../Tiện thể,N3,"Cấu trúc: Vる / Vた + ついでに.
+Cách dùng: Dùng để diễn tả: nhân tiện…/Tiện thể.",コンビニへ行くついでに、牛乳を買ってきます。,"Tiện đi cửa hàng tiện lợi, tôi sẽ mua sữa.",0,0,False
+つまり,Hay nói cách khác là,N3,"Cấu trúc: つまり + câu.
+Cách dùng: Dùng để diễn tả: hay nói cách khác là.",彼は来ません。つまり、会議は延期です。,"Anh ấy sẽ không đến. Nói cách khác, cuộc họp bị hoãn.",0,0,False
+つもりでした,Đã dự định/không dự định(làm gì),N3,"Cấu trúc: Vる / Vない + つもりでした.
+Cách dùng: Dùng để diễn tả: đã dự định/không dự định(làm gì).",昨日勉強するつもりでしたが、寝てしまいました。,Hôm qua tôi đã định học nhưng lại ngủ mất.,0,0,False
+うちに,Trong lúc/trong khi,N3,"Cấu trúc: thể thông thường + うちに.
+Cách dùng: Dùng để diễn tả: trong lúc/trong khi.",若いうちにたくさん経験した方がいいです。,Nên trải nghiệm nhiều khi còn trẻ.,0,0,False
+は別として,Ngoại trừ/...thì không nói/không quan trọng,N3,"Cấu trúc: N + は別として.
+Cách dùng: Dùng để diễn tả: ngoại trừ/…thì không nói/không quan trọng.",値段は別として、この商品はとても良いです。,"Không nói đến giá cả, sản phẩm này rất tốt.",0,0,False
+はもちろん,Không chỉ/không những...mà còn,N3,"Cấu trúc: N + はもちろん、...も.
+Cách dùng: Dùng để diễn tả: không chỉ/không những…mà còn.",日本語はもちろん、英語も勉強しています。,"Không chỉ tiếng Nhật, tôi còn học cả tiếng Anh.",0,0,False
+は～で有名,Nổi tiếng vì.../nổi tiếng với...,N3,"Cấu trúc: N + は + N + で有名.
+Cách dùng: Dùng để diễn tả: nổi tiếng vì…/nổi tiếng với….",京都はお寺で有名です。,Kyoto nổi tiếng với các ngôi chùa.,0,0,False
+わけだ,Hèn chi/chẳng trách là,N3,"Cấu trúc: thể thông thường + わけだ.
+Cách dùng: Dùng để diễn tả: hèn chi/chẳng trách là.",彼は十年日本に住んでいた。日本語が上手なわけだ。,Anh ấy sống ở Nhật 10 năm. Hèn chi tiếng Nhật giỏi.,0,0,False
+わけではない,Không phải là/không hẳn là,N3,"Cấu trúc: thể thông thường + わけではない.
+Cách dùng: Dùng để diễn tả: không phải là/không hẳn là.",嫌いなわけではありませんが、あまり食べません。,"Không phải là tôi ghét, nhưng tôi không ăn nhiều.",0,0,False
+わけがない,Không lý nào/không có khả năng,N3,"Cấu trúc: thể thông thường + わけがない.
+Cách dùng: Dùng để diễn tả: không lý nào/không có khả năng.",彼がそんなことを言うわけがありません。,Không lý nào anh ấy lại nói điều như vậy.,0,0,False
+わけにはいかない,Nên không thể/đành phải,N3,"Cấu trúc: Vる / Vない + わけにはいかない.
+Cách dùng: Dùng để diễn tả: nên không thể/đành phải.",明日は試験なので、遊ぶわけにはいきません。,Ngày mai có thi nên tôi không thể đi chơi được.,0,0,False
+わりには,Dù.../tuy...nhưng,N3,"Cấu trúc: thể thông thường + わりには.
+Cách dùng: Dùng để diễn tả: dù…/tuy…nhưng.",彼は年齢のわりには若く見えます。,So với tuổi thì anh ấy trông trẻ.,0,0,False
+わざと,Cố tình/cố ý...,N3,"Cấu trúc: わざと + V.
+Cách dùng: Dùng để diễn tả: cố tình/cố ý….",彼はわざと間違えたふりをしました。,Anh ấy cố tình giả vờ làm sai.,0,0,False
+わざわざ,Cất công....,N3,"Cấu trúc: わざわざ + V.
+Cách dùng: Dùng để diễn tả: cất công…..",わざわざ来てくれてありがとう。,Cảm ơn bạn đã cất công đến.,0,0,False
+よりも,Hơn/so với/hơn là...,N3,"Cấu trúc: N / thể thông thường + よりも.
+Cách dùng: Dùng để diễn tả: hơn/so với/hơn là….",電車よりも自転車の方が便利です。,Xe đạp tiện hơn tàu điện.,0,0,False
+ようと思う,Dự định làm gì,N3,"Cấu trúc: Vよう + と思う.
+Cách dùng: Dùng để diễn tả: dự định làm gì.",来年日本へ行こうと思っています。,Tôi đang định năm sau đi Nhật.,0,0,False
+ようとしない,Không định làm gì,N3,"Cấu trúc: Vよう + としない.
+Cách dùng: Dùng để diễn tả: không định làm gì.",彼は自分の間違いを認めようとしません。,Anh ấy không chịu thừa nhận lỗi của mình.,0,0,False
+ようとする,Định làm gì,N3,"Cấu trúc: Vよう + とする.
+Cách dùng: Dùng để diễn tả: định làm gì.",家を出ようとした時、電話が鳴りました。,Khi tôi định ra khỏi nhà thì điện thoại reo.,0,0,False
+ように,Như là/giống như là,N3,"Cấu trúc: thể thông thường + ように.
+Cách dùng: Dùng để diễn tả: như là/giống như là.",忘れないようにメモしてください。,Hãy ghi chú để không quên.,0,0,False
+ように言う,Nói(ai)/nhờ(ai)...hãy/không làm gì đó,N3,"Cấu trúc: Vる / Vない + ように言う.
+Cách dùng: Dùng để diễn tả: nói(ai)/nhờ(ai)…hãy/không làm gì đó.",先生は毎日練習するように言いました。,Giáo viên đã nói hãy luyện tập mỗi ngày.,0,0,False
+ようになる,Trở thành,N3,"Cấu trúc: Vる / Vない + ようになる.
+Cách dùng: Dùng để diễn tả: trở thành.",少し日本語が話せるようになりました。,Tôi đã có thể nói tiếng Nhật một chút.,0,0,False
+ようにする,Cố gắng làm,N3,"Cấu trúc: Vる / Vない + ようにする.
+Cách dùng: Dùng để diễn tả: cố gắng làm.",毎日早く寝るようにしています。,Tôi cố gắng ngủ sớm mỗi ngày.,0,0,False
+ずに,Không,N3,"Cấu trúc: Vない + ずに.
+Cách dùng: Dùng để diễn tả: không.",朝ご飯を食べずに学校へ行きました。,Tôi đã đi học mà không ăn sáng.,0,0,False

@@ -50,9 +50,9 @@ namespace NihongoVocabTrainer.Services
 					continue;
 				}
 
-				string kanji = lines[i + 1];
-				string line2 = lines[i + 2];
-				string line3 = lines[i + 3];
+				string kanji = lines[i + 1].Trim();
+				string line2 = lines[i + 2].Trim();
+				string line3 = lines[i + 3].Trim();
 
 				string hiragana = string.Empty;
 				string meaning = string.Empty;
@@ -150,6 +150,7 @@ namespace NihongoVocabTrainer.Services
 
 		/// <summary>
 		/// 読み仮名らしい文字列かどうかを判定します。
+		/// ひらがな、カタカナ、長音、括弧、および「＜する＞」「<する>」形式を許可します。
 		/// </summary>
 		/// <param name="value">文字列</param>
 		/// <returns>読み仮名の場合 true</returns>
@@ -157,7 +158,16 @@ namespace NihongoVocabTrainer.Services
 		{
 			#region 読み仮名判定
 
-			return Regex.IsMatch(value, @"^[ぁ-んァ-ンー・ー（）\(\)＜＞\[\] ]+$");
+			if (string.IsNullOrWhiteSpace(value))
+			{
+				return false;
+			}
+
+			string normalizedValue = value.Trim();
+
+			return Regex.IsMatch(
+				normalizedValue,
+				@"^[ぁ-んァ-ンー・･（）\(\)＜＞<>［］\[\]【】「」『』〜~\s]+$");
 
 			#endregion
 		}
